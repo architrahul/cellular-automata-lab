@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Interactive cellular automata lab for exploring Conway's Game of Life and editable outer-totalistic rules."
+    >
+    <title>Cellular Automata Lab</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="sim-pane" aria-label="Cellular automata simulator">
+        <div class="topbar">
+          <div>
+            <p class="eyebrow">Emergent Complexity</p>
+            <h1>Cellular Automata Lab</h1>
+          </div>
+          <div class="rule-pill" id="ruleDisplay" aria-live="polite">B3/S23</div>
+        </div>
+
+        <div class="canvas-frame">
+          <canvas
+            id="automataCanvas"
+            width="720"
+            height="720"
+            aria-label="Drawable cellular automata grid"
+          ></canvas>
+        </div>
+
+        <div class="transport" aria-label="Simulation controls">
+          <button id="runToggle" class="primary">Run</button>
+          <button id="stepButton">Step</button>
+          <button id="randomButton">Randomize</button>
+          <button id="clearButton">Clear</button>
+        </div>
+
+        <div class="stat-grid" aria-label="Current simulation statistics">
+          <div>
+            <span>Generation</span>
+            <strong id="generationStat">0</strong>
+          </div>
+          <div>
+            <span>Live cells</span>
+            <strong id="liveStat">0</strong>
+          </div>
+          <div>
+            <span>Density</span>
+            <strong id="densityStat">0.0%</strong>
+          </div>
+          <div>
+            <span>Activity</span>
+            <strong id="activityStat">Idle</strong>
+          </div>
+        </div>
+      </section>
+
+      <aside class="control-pane" aria-label="Experiment controls">
+        <section class="panel">
+          <div class="panel-heading">
+            <h2>Grid</h2>
+            <span id="gridSizeLabel">64 x 64</span>
+          </div>
+
+          <label class="control-row" for="gridSize">
+            <span>Size</span>
+            <select id="gridSize">
+              <option value="40">40 x 40</option>
+              <option value="56">56 x 56</option>
+              <option value="64" selected>64 x 64</option>
+              <option value="80">80 x 80</option>
+              <option value="100">100 x 100</option>
+            </select>
+          </label>
+
+          <label class="control-row" for="speedRange">
+            <span>Speed</span>
+            <input id="speedRange" type="range" min="1" max="30" value="10">
+            <output id="speedLabel" for="speedRange">10 gen/s</output>
+          </label>
+
+          <label class="control-row" for="densityRange">
+            <span>Random density</span>
+            <input id="densityRange" type="range" min="1" max="90" value="24">
+            <output id="randomDensityLabel" for="densityRange">24%</output>
+          </label>
+
+          <label class="check-row">
+            <input id="wrapToggle" type="checkbox" checked>
+            <span>Wrap edges</span>
+          </label>
+        </section>
+
+        <section class="panel">
+          <div class="panel-heading">
+            <h2>Rule</h2>
+            <span>Outer-totalistic</span>
+          </div>
+
+          <div class="preset-grid" aria-label="Rule presets">
+            <button data-preset="life">Life</button>
+            <button data-preset="highlife">HighLife</button>
+            <button data-preset="seeds">Seeds</button>
+            <button data-preset="daynight">Day &amp; Night</button>
+          </div>
+
+          <div class="rule-editor">
+            <div>
+              <h3>Birth counts</h3>
+              <div id="birthCounts" class="count-grid" aria-label="Birth neighbor counts"></div>
+            </div>
+            <div>
+              <h3>Survival counts</h3>
+              <div id="survivalCounts" class="count-grid" aria-label="Survival neighbor counts"></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-heading">
+            <h2>Experiments</h2>
+            <span>For findings</span>
+          </div>
+
+          <div class="experiment-actions">
+            <button id="sampleRuleButton">Sample rule</button>
+            <button id="logButton">Log observation</button>
+            <button id="downloadButton">Download CSV</button>
+          </div>
+
+          <div class="notes">
+            <label for="observationText">Observation notes</label>
+            <textarea
+              id="observationText"
+              rows="4"
+              placeholder="Example: At 24% density, HighLife formed stable islands and a few moving structures after 120 generations."
+            ></textarea>
+          </div>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Gen</th>
+                  <th>Rule</th>
+                  <th>Live</th>
+                  <th>Activity</th>
+                </tr>
+              </thead>
+              <tbody id="logTable">
+                <tr>
+                  <td colspan="4">No observations logged yet.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+      </aside>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
+
