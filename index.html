@@ -156,6 +156,88 @@
             </table>
           </div>
         </section>
+
+        <section class="panel study-panel">
+          <div class="panel-heading">
+            <h2>Task 3 Study</h2>
+            <span id="studyStatus">Idle</span>
+          </div>
+
+          <div class="study-settings">
+            <label class="compact-control" for="studyGridSize">
+              <span>Grid</span>
+              <select id="studyGridSize">
+                <option value="50" selected>50 x 50</option>
+                <option value="100">100 x 100</option>
+                <option value="200">200 x 200</option>
+                <option value="300">300 x 300</option>
+              </select>
+            </label>
+
+            <label class="compact-control" for="studySteps">
+              <span>Steps</span>
+              <input id="studySteps" type="number" min="100" max="1000" step="50" value="500">
+            </label>
+
+            <label class="compact-control" for="studyTrials">
+              <span>Trials/rule</span>
+              <input id="studyTrials" type="number" min="1" max="10" step="1" value="5">
+            </label>
+
+            <label class="compact-control" for="studyDensity">
+              <span>Density</span>
+              <input id="studyDensity" type="number" min="1" max="90" step="1" value="24">
+            </label>
+
+            <label class="compact-control" for="studySeed">
+              <span>Seed</span>
+              <input id="studySeed" type="number" min="1" step="1" value="202609">
+            </label>
+          </div>
+
+          <div class="study-actions">
+            <button id="runStudyButton" class="primary">Run 100-rule study</button>
+            <button id="cancelStudyButton" disabled>Cancel</button>
+            <button id="downloadStudyButton" disabled>Download study CSV</button>
+          </div>
+
+          <progress id="studyProgress" max="100" value="0"></progress>
+
+          <div class="summary-grid" aria-label="Task 3 study summary">
+            <div>
+              <span>Rules</span>
+              <strong id="studyRulesStat">0/100</strong>
+            </div>
+            <div>
+              <span>Trials</span>
+              <strong id="studyTrialsStat">0</strong>
+            </div>
+            <div>
+              <span>Top class</span>
+              <strong id="studyTopClassStat">None</strong>
+            </div>
+          </div>
+
+          <div class="table-wrap study-table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Rule</th>
+                  <th>Dominant class</th>
+                  <th>Distribution</th>
+                  <th>Avg density</th>
+                  <th>Avg activity</th>
+                  <th>Tags</th>
+                </tr>
+              </thead>
+              <tbody id="studyTable">
+                <tr>
+                  <td colspan="6">Run the study to classify Conway, HighLife, and 98 sampled rules.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
       </aside>
     </main>
 

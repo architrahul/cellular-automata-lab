@@ -250,6 +250,87 @@ output {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.study-settings {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.compact-control {
+  display: grid;
+  gap: 5px;
+}
+
+.compact-control span {
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+.compact-control input,
+.compact-control select {
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  min-height: 38px;
+  padding: 0 9px;
+  width: 100%;
+}
+
+.study-actions {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: 1fr 0.65fr 1fr;
+  margin-top: 14px;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.52;
+  transform: none;
+}
+
+progress {
+  accent-color: var(--accent);
+  height: 12px;
+  margin-top: 14px;
+  width: 100%;
+}
+
+.summary-grid {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin: 14px 0;
+}
+
+.summary-grid div {
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  min-height: 66px;
+  padding: 10px;
+}
+
+.summary-grid span {
+  color: var(--muted);
+  display: block;
+  font-size: 0.76rem;
+  font-weight: 800;
+}
+
+.summary-grid strong {
+  display: block;
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
+.study-table-wrap {
+  max-height: 260px;
+}
+
+.study-table-wrap table {
+  min-width: 720px;
+}
+
 .rule-editor {
   display: grid;
   gap: 14px;
@@ -381,5 +462,11 @@ td {
 
   .count-grid {
     grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .study-settings,
+  .study-actions,
+  .summary-grid {
+    grid-template-columns: 1fr;
   }
 }

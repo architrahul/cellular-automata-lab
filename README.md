@@ -10,6 +10,9 @@ Interactive static website for the Emergent Complexity initial assignment. It st
 - Choose grid sizes of 50 x 50, 100 x 100, 200 x 200, or 300 x 300. The default is 100 x 100.
 - Edit birth and survival neighbor counts with checkboxes for rules like `B3/S23` and `B36/S23`.
 - Sample random outer-totalistic rules and log observations for later report writing.
+- Run a Task 3 study with Conway's Life, HighLife, and 98 random rules.
+- Measure density, activity, occupied bounding-box area, hash-based periodicity, and center-of-mass movement.
+- Classify each rule by its distribution across repeated random initial conditions.
 - Download observation logs as CSV.
 
 ## Running locally
@@ -43,7 +46,7 @@ Implemented now:
 
 - Task 1: interactive Game of Life simulator.
 - Task 2: editable outer-totalistic rule controls, including HighLife.
-- Task 3 support: random rule sampling and observation logging.
+- Task 3 support: 100-rule batch study, random initial conditions, quantitative measurements, automatic classification, and CSV export.
 
 Not implemented yet:
 
