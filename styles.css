@@ -267,16 +267,35 @@ output {
   grid-template-columns: repeat(9, minmax(0, 1fr));
 }
 
-.count-grid button {
+.count-toggle {
+  align-items: center;
+  border: 1px solid var(--line);
   border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  font-weight: 800;
+  gap: 5px;
+  justify-content: center;
   min-height: 34px;
-  padding: 0;
+  padding: 0 4px;
+  transition: background 150ms ease, border-color 150ms ease, color 150ms ease;
 }
 
-.count-grid button.active {
+.count-toggle input {
+  accent-color: var(--accent);
+  height: 14px;
+  margin: 0;
+  width: 14px;
+}
+
+.count-toggle.active {
   background: var(--ink);
   border-color: var(--ink);
   color: #fff;
+}
+
+.count-toggle.active input {
+  accent-color: var(--amber);
 }
 
 .notes {

@@ -7,7 +7,8 @@ Interactive static website for the Emergent Complexity initial assignment. It st
 - Draw live/dead cells directly on the grid.
 - Run, pause, step, clear, and randomize the simulation.
 - Adjust grid size, speed, random initial density, and edge wrapping.
-- Edit birth and survival neighbor counts visually for rules like `B3/S23` and `B36/S23`.
+- Choose grid sizes of 50 x 50, 100 x 100, 200 x 200, or 300 x 300. The default is 100 x 100.
+- Edit birth and survival neighbor counts with checkboxes for rules like `B3/S23` and `B36/S23`.
 - Sample random outer-totalistic rules and log observations for later report writing.
 - Download observation logs as CSV.
 
@@ -47,4 +48,3 @@ Implemented now:
 Not implemented yet:
 
 - Option B noise and perturbations. The current app leaves room to add per-step random flips, noise controls, and robustness comparisons later.
-

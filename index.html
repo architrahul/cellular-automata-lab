@@ -61,17 +61,16 @@
         <section class="panel">
           <div class="panel-heading">
             <h2>Grid</h2>
-            <span id="gridSizeLabel">64 x 64</span>
+            <span id="gridSizeLabel">100 x 100</span>
           </div>
 
           <label class="control-row" for="gridSize">
             <span>Size</span>
             <select id="gridSize">
-              <option value="40">40 x 40</option>
-              <option value="56">56 x 56</option>
-              <option value="64" selected>64 x 64</option>
-              <option value="80">80 x 80</option>
-              <option value="100">100 x 100</option>
+              <option value="50">50 x 50</option>
+              <option value="100" selected>100 x 100</option>
+              <option value="200">200 x 200</option>
+              <option value="300">300 x 300</option>
             </select>
           </label>
 
@@ -109,11 +108,11 @@
           <div class="rule-editor">
             <div>
               <h3>Birth counts</h3>
-              <div id="birthCounts" class="count-grid" aria-label="Birth neighbor counts"></div>
+              <div id="birthCounts" class="count-grid" aria-label="Birth neighbor count checkboxes"></div>
             </div>
             <div>
               <h3>Survival counts</h3>
-              <div id="survivalCounts" class="count-grid" aria-label="Survival neighbor counts"></div>
+              <div id="survivalCounts" class="count-grid" aria-label="Survival neighbor count checkboxes"></div>
             </div>
           </div>
         </section>
@@ -163,4 +162,3 @@
     <script src="app.js"></script>
   </body>
 </html>
-

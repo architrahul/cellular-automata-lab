@@ -32,7 +32,7 @@ const presets = {
   daynight: { birth: [3, 6, 7, 8], survival: [3, 4, 6, 7, 8] },
 };
 
-let size = Number(gridSize.value);
+let size = Math.min(Number(gridSize.value), 300);
 let cells = new Uint8Array(size * size);
 let next = new Uint8Array(size * size);
 let generation = 0;
@@ -219,12 +219,13 @@ function ruleString() {
   return `B${birth}/S${survival}`;
 }
 
-function syncRuleButtons() {
-  document.querySelectorAll("[data-rule-kind]").forEach((button) => {
-    const count = Number(button.dataset.count);
-    const rule = button.dataset.ruleKind === "birth" ? birthRule : survivalRule;
-    button.classList.toggle("active", rule.has(count));
-    button.setAttribute("aria-pressed", String(rule.has(count)));
+function syncRuleControls() {
+  document.querySelectorAll("[data-rule-kind]").forEach((input) => {
+    const count = Number(input.dataset.count);
+    const rule = input.dataset.ruleKind === "birth" ? birthRule : survivalRule;
+    const active = rule.has(count);
+    input.checked = active;
+    input.closest(".count-toggle").classList.toggle("active", active);
   });
   ruleDisplay.textContent = ruleString();
 }
@@ -232,27 +233,35 @@ function syncRuleButtons() {
 function setRule(birth, survival) {
   birthRule = new Set(birth);
   survivalRule = new Set(survival);
-  syncRuleButtons();
+  syncRuleControls();
 }
 
-function makeRuleButtons(container, kind) {
+function makeRuleCheckboxes(container, kind) {
   for (let count = 0; count <= 8; count += 1) {
-    const button = document.createElement("button");
-    button.type = "button";
-    button.textContent = String(count);
-    button.dataset.count = String(count);
-    button.dataset.ruleKind = kind;
-    button.setAttribute("aria-pressed", "false");
-    button.addEventListener("click", () => {
+    const label = document.createElement("label");
+    label.className = "count-toggle";
+
+    const input = document.createElement("input");
+    input.type = "checkbox";
+    input.dataset.count = String(count);
+    input.dataset.ruleKind = kind;
+    input.setAttribute("aria-label", `${kind} on ${count} neighbors`);
+
+    const text = document.createElement("span");
+    text.textContent = String(count);
+
+    input.addEventListener("change", () => {
       const rule = kind === "birth" ? birthRule : survivalRule;
-      if (rule.has(count)) {
-        rule.delete(count);
-      } else {
+      if (input.checked) {
         rule.add(count);
+      } else {
+        rule.delete(count);
       }
-      syncRuleButtons();
+      syncRuleControls();
     });
-    container.append(button);
+
+    label.append(input, text);
+    container.append(label);
   }
 }
 
@@ -387,7 +396,7 @@ sampleRuleButton.addEventListener("click", sampleRule);
 logButton.addEventListener("click", logObservation);
 downloadButton.addEventListener("click", downloadCsv);
 
-gridSize.addEventListener("change", () => resizeGrid(Number(gridSize.value)));
+gridSize.addEventListener("change", () => resizeGrid(Math.min(Number(gridSize.value), 300)));
 speedRange.addEventListener("input", () => {
   speedLabel.textContent = `${speedRange.value} gen/s`;
 });
@@ -402,8 +411,7 @@ canvas.addEventListener("pointermove", (event) => {
 window.addEventListener("pointerup", stopPainting);
 canvas.addEventListener("pointerleave", stopPainting);
 
-makeRuleButtons(birthCounts, "birth");
-makeRuleButtons(survivalCounts, "survival");
-syncRuleButtons();
+makeRuleCheckboxes(birthCounts, "birth");
+makeRuleCheckboxes(survivalCounts, "survival");
+syncRuleControls();
 randomizeGrid();
-
