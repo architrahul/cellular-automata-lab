@@ -27,6 +27,20 @@ python3 -m http.server 8080
 
 Then visit `http://localhost:8080`.
 
+## Running the Task 3 study
+
+The recorded headless simulation can be rerun with:
+
+```sh
+node scripts/run_task3_study.js
+```
+
+This writes:
+
+- `results/task3_summary.md`
+- `results/task3_rule_summary.csv`
+- `results/task3_trials.csv`
+
 ## GitHub Pages
 
 This repo is designed to work as a plain GitHub Pages site from the repository root.
@@ -47,6 +61,7 @@ Implemented now:
 - Task 1: interactive Game of Life simulator.
 - Task 2: editable outer-totalistic rule controls, including HighLife.
 - Task 3 support: 100-rule batch study, random initial conditions, quantitative measurements, automatic classification, and CSV export.
+- Task 3 recorded results: 100 rules, 10 trials per rule, 500 steps per trial, 100 x 100 grid, 24% starting density, wrapped edges, seed `202609`.
 
 Not implemented yet:
 
