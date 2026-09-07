@@ -48,6 +48,16 @@ Mobile is treated as a tag rather than an exclusive class. Reproduction should s
 
 Codex helped translate the assignment requirements into a static HTML, CSS, and JavaScript simulator. It also added experiment logging so observations can be reused in the final report.
 
-## Option B next steps
+## Option B perturbation model
 
-For the noise and perturbation extension, add a small probability that each cell flips after every simulation step. Useful experiments would compare whether stable patterns, moving structures, and oscillators survive under different noise values such as 0.1%, 0.5%, 1%, and 5%.
+For the noise and perturbation extension, the simulation adds a small probability that each cell flips after every simulation step. This lets the report compare whether stable patterns, moving structures, and oscillators survive under different noise values such as 0.1%, 0.5%, 1%, and 5%.
+
+## Recorded 500 x 500 and noise sweep
+
+The large-grid follow-up uses the same 100-rule set as the original Task 3 run, but increases the grid to 500 x 500. Each run lasts 500 generations with wrapped edges and 24% initial live density. The noise sweep then repeats each rule from the same starting grid at `p = 0, 0.001, 0.005, 0.01, 0.02, 0.05, 0.1, 0.2, 0.5, 1.0`, where `p` is the probability that a cell flips after each rule update.
+
+At 500 x 500 with no noise, 7 of the 100 rules changed dominant class relative to the earlier 100 x 100 study. Conway Life and HighLife both stayed Structured Dynamic.
+
+Noise made 19 rules change class even at `p = 0.001`. The affected count rose gradually through the middle of the sweep and reached 54 changed rules at `p = 1.0`. Conway Life and HighLife stayed Structured Dynamic through `p = 0.05`, became Disordered at `p = 0.1`, and had degenerate high-noise behavior at `p = 1.0`.
+
+The detailed tables are in `results/task3_500_noise_summary.md`, with raw trial data in the associated CSV files.

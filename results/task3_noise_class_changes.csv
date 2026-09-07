@@ -1,0 +1,901 @@
+noise,label,rule,baselineClass,noiseClass,baselineDistribution,noiseDistribution,changed
+0.001,"Conway Life","B3/S23","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.001,"HighLife","B36/S23","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.001,"Sample 01","B23678/S348","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 02","B0467/S02356","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 03","B01348/S018","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 04","B234/S0135","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 05","B045678/S678","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.001,"Sample 06","B3467/S0356","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 07","B0378/S12368","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 08","B36/S06","Periodic","Bounded Dynamic","Periodic: 100%","Bounded Dynamic: 100%",true
+0.001,"Sample 09","B1234567/S56","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 10","B13568/S13567","Expanding","Expanding","Expanding: 100%","Expanding: 100%",false
+0.001,"Sample 11","B01467/S0134","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 12","B1578/S035678","Periodic","Expanding","Periodic: 100%","Expanding: 100%",true
+0.001,"Sample 13","B1235678/S013578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 14","B0346/S1235","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 15","B24567/S03467","Expanding","Expanding","Expanding: 100%","Expanding: 100%",false
+0.001,"Sample 16","B1245/S2358","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 17","B0123678/S035","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.001,"Sample 18","B12457/S2367","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 19","B03568/S4568","Expanding","Expanding","Expanding: 100%","Expanding: 100%",false
+0.001,"Sample 20","B378/S01678","Periodic","Structured Dynamic","Periodic: 100%","Structured Dynamic: 100%",true
+0.001,"Sample 21","B0268/S346","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 22","B02468/S0245678","Frozen","Bounded Dynamic","Frozen: 100%","Bounded Dynamic: 100%",true
+0.001,"Sample 23","B056/S1278","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.001,"Sample 24","B13678/S03458","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 25","B234/S2345","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 26","B24/S3456","Periodic","Bounded Dynamic","Periodic: 100%","Bounded Dynamic: 100%",true
+0.001,"Sample 27","B01457/S0236","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 28","B134568/S12568","Expanding","Expanding","Expanding: 100%","Expanding: 100%",false
+0.001,"Sample 29","B0568/S134","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.001,"Sample 30","B6/S013678","Frozen","Bounded Dynamic","Frozen: 100%","Bounded Dynamic: 100%",true
+0.001,"Sample 31","B0167/S012","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 32","B123567/S012357","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 33","B03/S3456","Periodic","Bounded Dynamic","Periodic: 100%","Bounded Dynamic: 100%",true
+0.001,"Sample 34","B1367/S026","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 35","B1478/S1247","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 36","B123457/S01468","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 37","B25/S012678","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 38","B267/S026","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.001,"Sample 39","B01236/S1347","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 40","B034568/S012368","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 41","B1378/S0357","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 42","B047/S37","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.001,"Sample 43","B01257/S02368","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 44","B04567/S1238","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 45","B0134/S124678","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 46","B03468/S3578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 47","B015678/S0123567","Expanding","Expanding","Expanding: 100%","Expanding: 100%",false
+0.001,"Sample 48","B034678/S0137","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 49","B2/S014678","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.001,"Sample 50","B023678/S123578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 51","B12/S023478","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 52","B12578/S023567","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 53","B0147/S03578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 54","B12467/S024567","Expanding","Expanding","Expanding: 100%","Expanding: 100%",false
+0.001,"Sample 55","B123457/S23467","Expanding","Expanding","Expanding: 100%","Expanding: 100%",false
+0.001,"Sample 56","B13568/S1468","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 57","B01368/S13568","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 58","B148/S0368","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.001,"Sample 59","B01236/S012578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 60","B348/S023468","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 61","B1457/S01567","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 62","B237/S0134567","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 63","B014568/S2467","Expanding","Expanding","Expanding: 100%","Expanding: 100%",false
+0.001,"Sample 64","B0123578/S0145","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.001,"Sample 65","B1268/S34","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 66","B3458/S0347","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 67","B56/S7","Extinct","Bounded Dynamic","Extinct: 100%","Bounded Dynamic: 100%",true
+0.001,"Sample 68","B3478/S067","Periodic","Bounded Dynamic","Periodic: 100%","Bounded Dynamic: 100%",true
+0.001,"Sample 69","B023467/S05","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 70","B1457/S2457","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 71","B12357/S456","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 72","B028/S1234578","Frozen","Bounded Dynamic","Frozen: 100%","Bounded Dynamic: 100%",true
+0.001,"Sample 73","B3678/S2348","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 74","B047/S02378","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.001,"Sample 75","B2457/S1235678","Periodic","Bounded Dynamic","Periodic: 100%","Bounded Dynamic: 100%",true
+0.001,"Sample 76","B01346/S013568","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 77","B0347/S2567","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 78","B134/S123578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 79","B0234678/S12567","Expanding","Expanding","Expanding: 100%","Expanding: 100%",false
+0.001,"Sample 80","B2568/S0156","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.001,"Sample 81","B17/S2348","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 82","B012/S02457","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 83","B0123468/S145","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.001,"Sample 84","B012357/S023467","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 85","B01248/S0358","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 86","B568/S016","Frozen","Bounded Dynamic","Frozen: 100%","Bounded Dynamic: 100%",true
+0.001,"Sample 87","B012456/S0137","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 88","B016/S128","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 89","B012348/S2346","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.001,"Sample 90","B345678/S012368","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 91","B013578/S147","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 92","B127/S14568","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 93","B13568/S015678","Periodic","Bounded Dynamic","Periodic: 100%","Bounded Dynamic: 100%",true
+0.001,"Sample 94","B0235/S0123","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.001,"Sample 95","B568/S0135","Frozen","Bounded Dynamic","Frozen: 100%","Bounded Dynamic: 100%",true
+0.001,"Sample 96","B01567/S17","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.001,"Sample 97","B01357/S0148","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.001,"Sample 98","B1258/S03678","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Conway Life","B3/S23","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.005,"HighLife","B36/S23","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.005,"Sample 01","B23678/S348","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 02","B0467/S02356","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 03","B01348/S018","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 04","B234/S0135","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 05","B045678/S678","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.005,"Sample 06","B3467/S0356","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 07","B0378/S12368","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 08","B36/S06","Periodic","Structured Dynamic","Periodic: 100%","Structured Dynamic: 100%",true
+0.005,"Sample 09","B1234567/S56","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 10","B13568/S13567","Expanding","Expanding","Expanding: 100%","Expanding: 100%",false
+0.005,"Sample 11","B01467/S0134","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 12","B1578/S035678","Periodic","Expanding","Periodic: 100%","Expanding: 100%",true
+0.005,"Sample 13","B1235678/S013578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 14","B0346/S1235","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 15","B24567/S03467","Expanding","Expanding","Expanding: 100%","Expanding: 100%",false
+0.005,"Sample 16","B1245/S2358","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 17","B0123678/S035","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.005,"Sample 18","B12457/S2367","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 19","B03568/S4568","Expanding","Expanding","Expanding: 100%","Expanding: 100%",false
+0.005,"Sample 20","B378/S01678","Periodic","Structured Dynamic","Periodic: 100%","Structured Dynamic: 100%",true
+0.005,"Sample 21","B0268/S346","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 22","B02468/S0245678","Frozen","Bounded Dynamic","Frozen: 100%","Bounded Dynamic: 100%",true
+0.005,"Sample 23","B056/S1278","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.005,"Sample 24","B13678/S03458","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 25","B234/S2345","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 26","B24/S3456","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.005,"Sample 27","B01457/S0236","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 28","B134568/S12568","Expanding","Expanding","Expanding: 100%","Expanding: 100%",false
+0.005,"Sample 29","B0568/S134","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.005,"Sample 30","B6/S013678","Frozen","Bounded Dynamic","Frozen: 100%","Bounded Dynamic: 100%",true
+0.005,"Sample 31","B0167/S012","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 32","B123567/S012357","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 33","B03/S3456","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.005,"Sample 34","B1367/S026","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 35","B1478/S1247","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 36","B123457/S01468","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 37","B25/S012678","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 38","B267/S026","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.005,"Sample 39","B01236/S1347","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 40","B034568/S012368","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 41","B1378/S0357","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 42","B047/S37","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.005,"Sample 43","B01257/S02368","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 44","B04567/S1238","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 45","B0134/S124678","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 46","B03468/S3578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 47","B015678/S0123567","Expanding","Expanding","Expanding: 100%","Expanding: 100%",false
+0.005,"Sample 48","B034678/S0137","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 49","B2/S014678","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.005,"Sample 50","B023678/S123578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 51","B12/S023478","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 52","B12578/S023567","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 53","B0147/S03578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 54","B12467/S024567","Expanding","Expanding","Expanding: 100%","Expanding: 100%",false
+0.005,"Sample 55","B123457/S23467","Expanding","Expanding","Expanding: 100%","Expanding: 100%",false
+0.005,"Sample 56","B13568/S1468","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 57","B01368/S13568","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 58","B148/S0368","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.005,"Sample 59","B01236/S012578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 60","B348/S023468","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 61","B1457/S01567","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 62","B237/S0134567","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 63","B014568/S2467","Expanding","Expanding","Expanding: 100%","Expanding: 100%",false
+0.005,"Sample 64","B0123578/S0145","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.005,"Sample 65","B1268/S34","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 66","B3458/S0347","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 67","B56/S7","Extinct","Bounded Dynamic","Extinct: 100%","Bounded Dynamic: 100%",true
+0.005,"Sample 68","B3478/S067","Periodic","Structured Dynamic","Periodic: 100%","Structured Dynamic: 100%",true
+0.005,"Sample 69","B023467/S05","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 70","B1457/S2457","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 71","B12357/S456","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 72","B028/S1234578","Frozen","Bounded Dynamic","Frozen: 100%","Bounded Dynamic: 100%",true
+0.005,"Sample 73","B3678/S2348","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 74","B047/S02378","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.005,"Sample 75","B2457/S1235678","Periodic","Bounded Dynamic","Periodic: 100%","Bounded Dynamic: 100%",true
+0.005,"Sample 76","B01346/S013568","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 77","B0347/S2567","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 78","B134/S123578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 79","B0234678/S12567","Expanding","Expanding","Expanding: 100%","Expanding: 100%",false
+0.005,"Sample 80","B2568/S0156","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.005,"Sample 81","B17/S2348","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 82","B012/S02457","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 83","B0123468/S145","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.005,"Sample 84","B012357/S023467","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 85","B01248/S0358","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 86","B568/S016","Frozen","Bounded Dynamic","Frozen: 100%","Bounded Dynamic: 100%",true
+0.005,"Sample 87","B012456/S0137","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 88","B016/S128","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 89","B012348/S2346","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.005,"Sample 90","B345678/S012368","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 91","B013578/S147","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 92","B127/S14568","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 93","B13568/S015678","Periodic","Bounded Dynamic","Periodic: 100%","Bounded Dynamic: 100%",true
+0.005,"Sample 94","B0235/S0123","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.005,"Sample 95","B568/S0135","Frozen","Bounded Dynamic","Frozen: 100%","Bounded Dynamic: 100%",true
+0.005,"Sample 96","B01567/S17","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.005,"Sample 97","B01357/S0148","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.005,"Sample 98","B1258/S03678","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Conway Life","B3/S23","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.010,"HighLife","B36/S23","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.010,"Sample 01","B23678/S348","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 02","B0467/S02356","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 03","B01348/S018","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 04","B234/S0135","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 05","B045678/S678","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.010,"Sample 06","B3467/S0356","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 07","B0378/S12368","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 08","B36/S06","Periodic","Structured Dynamic","Periodic: 100%","Structured Dynamic: 100%",true
+0.010,"Sample 09","B1234567/S56","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 10","B13568/S13567","Expanding","Expanding","Expanding: 100%","Expanding: 100%",false
+0.010,"Sample 11","B01467/S0134","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 12","B1578/S035678","Periodic","Expanding","Periodic: 100%","Expanding: 100%",true
+0.010,"Sample 13","B1235678/S013578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 14","B0346/S1235","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 15","B24567/S03467","Expanding","Expanding","Expanding: 100%","Expanding: 100%",false
+0.010,"Sample 16","B1245/S2358","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 17","B0123678/S035","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.010,"Sample 18","B12457/S2367","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 19","B03568/S4568","Expanding","Expanding","Expanding: 100%","Expanding: 100%",false
+0.010,"Sample 20","B378/S01678","Periodic","Structured Dynamic","Periodic: 100%","Structured Dynamic: 100%",true
+0.010,"Sample 21","B0268/S346","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 22","B02468/S0245678","Frozen","Disordered","Frozen: 100%","Disordered: 100%",true
+0.010,"Sample 23","B056/S1278","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.010,"Sample 24","B13678/S03458","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 25","B234/S2345","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 26","B24/S3456","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.010,"Sample 27","B01457/S0236","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 28","B134568/S12568","Expanding","Expanding","Expanding: 100%","Expanding: 100%",false
+0.010,"Sample 29","B0568/S134","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.010,"Sample 30","B6/S013678","Frozen","Structured Dynamic","Frozen: 100%","Structured Dynamic: 100%",true
+0.010,"Sample 31","B0167/S012","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 32","B123567/S012357","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 33","B03/S3456","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.010,"Sample 34","B1367/S026","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 35","B1478/S1247","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 36","B123457/S01468","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 37","B25/S012678","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 38","B267/S026","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.010,"Sample 39","B01236/S1347","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 40","B034568/S012368","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 41","B1378/S0357","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 42","B047/S37","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.010,"Sample 43","B01257/S02368","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 44","B04567/S1238","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 45","B0134/S124678","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 46","B03468/S3578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 47","B015678/S0123567","Expanding","Expanding","Expanding: 100%","Expanding: 100%",false
+0.010,"Sample 48","B034678/S0137","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 49","B2/S014678","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.010,"Sample 50","B023678/S123578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 51","B12/S023478","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 52","B12578/S023567","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 53","B0147/S03578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 54","B12467/S024567","Expanding","Expanding","Expanding: 100%","Expanding: 100%",false
+0.010,"Sample 55","B123457/S23467","Expanding","Expanding","Expanding: 100%","Expanding: 100%",false
+0.010,"Sample 56","B13568/S1468","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 57","B01368/S13568","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 58","B148/S0368","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.010,"Sample 59","B01236/S012578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 60","B348/S023468","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 61","B1457/S01567","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 62","B237/S0134567","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 63","B014568/S2467","Expanding","Expanding","Expanding: 100%","Expanding: 100%",false
+0.010,"Sample 64","B0123578/S0145","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.010,"Sample 65","B1268/S34","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 66","B3458/S0347","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 67","B56/S7","Extinct","Structured Dynamic","Extinct: 100%","Structured Dynamic: 100%",true
+0.010,"Sample 68","B3478/S067","Periodic","Structured Dynamic","Periodic: 100%","Structured Dynamic: 100%",true
+0.010,"Sample 69","B023467/S05","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 70","B1457/S2457","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 71","B12357/S456","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 72","B028/S1234578","Frozen","Disordered","Frozen: 100%","Disordered: 100%",true
+0.010,"Sample 73","B3678/S2348","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 74","B047/S02378","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.010,"Sample 75","B2457/S1235678","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.010,"Sample 76","B01346/S013568","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 77","B0347/S2567","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 78","B134/S123578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 79","B0234678/S12567","Expanding","Expanding","Expanding: 100%","Expanding: 100%",false
+0.010,"Sample 80","B2568/S0156","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.010,"Sample 81","B17/S2348","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 82","B012/S02457","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 83","B0123468/S145","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.010,"Sample 84","B012357/S023467","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 85","B01248/S0358","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 86","B568/S016","Frozen","Structured Dynamic","Frozen: 100%","Structured Dynamic: 100%",true
+0.010,"Sample 87","B012456/S0137","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 88","B016/S128","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 89","B012348/S2346","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.010,"Sample 90","B345678/S012368","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 91","B013578/S147","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 92","B127/S14568","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 93","B13568/S015678","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.010,"Sample 94","B0235/S0123","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.010,"Sample 95","B568/S0135","Frozen","Structured Dynamic","Frozen: 100%","Structured Dynamic: 100%",true
+0.010,"Sample 96","B01567/S17","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.010,"Sample 97","B01357/S0148","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.010,"Sample 98","B1258/S03678","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Conway Life","B3/S23","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.020,"HighLife","B36/S23","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.020,"Sample 01","B23678/S348","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 02","B0467/S02356","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 03","B01348/S018","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 04","B234/S0135","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 05","B045678/S678","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.020,"Sample 06","B3467/S0356","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 07","B0378/S12368","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 08","B36/S06","Periodic","Structured Dynamic","Periodic: 100%","Structured Dynamic: 100%",true
+0.020,"Sample 09","B1234567/S56","Disordered","Expanding","Disordered: 100%","Expanding: 100%",true
+0.020,"Sample 10","B13568/S13567","Expanding","Expanding","Expanding: 100%","Expanding: 100%",false
+0.020,"Sample 11","B01467/S0134","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 12","B1578/S035678","Periodic","Expanding","Periodic: 100%","Expanding: 100%",true
+0.020,"Sample 13","B1235678/S013578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 14","B0346/S1235","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 15","B24567/S03467","Expanding","Expanding","Expanding: 100%","Expanding: 100%",false
+0.020,"Sample 16","B1245/S2358","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 17","B0123678/S035","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.020,"Sample 18","B12457/S2367","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 19","B03568/S4568","Expanding","Expanding","Expanding: 100%","Expanding: 100%",false
+0.020,"Sample 20","B378/S01678","Periodic","Structured Dynamic","Periodic: 100%","Structured Dynamic: 100%",true
+0.020,"Sample 21","B0268/S346","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 22","B02468/S0245678","Frozen","Disordered","Frozen: 100%","Disordered: 100%",true
+0.020,"Sample 23","B056/S1278","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.020,"Sample 24","B13678/S03458","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 25","B234/S2345","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 26","B24/S3456","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.020,"Sample 27","B01457/S0236","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 28","B134568/S12568","Expanding","Expanding","Expanding: 100%","Expanding: 100%",false
+0.020,"Sample 29","B0568/S134","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.020,"Sample 30","B6/S013678","Frozen","Structured Dynamic","Frozen: 100%","Structured Dynamic: 100%",true
+0.020,"Sample 31","B0167/S012","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 32","B123567/S012357","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 33","B03/S3456","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.020,"Sample 34","B1367/S026","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 35","B1478/S1247","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 36","B123457/S01468","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 37","B25/S012678","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 38","B267/S026","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.020,"Sample 39","B01236/S1347","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 40","B034568/S012368","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 41","B1378/S0357","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 42","B047/S37","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.020,"Sample 43","B01257/S02368","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 44","B04567/S1238","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 45","B0134/S124678","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 46","B03468/S3578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 47","B015678/S0123567","Expanding","Expanding","Expanding: 100%","Expanding: 100%",false
+0.020,"Sample 48","B034678/S0137","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 49","B2/S014678","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.020,"Sample 50","B023678/S123578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 51","B12/S023478","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 52","B12578/S023567","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 53","B0147/S03578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 54","B12467/S024567","Expanding","Expanding","Expanding: 100%","Expanding: 100%",false
+0.020,"Sample 55","B123457/S23467","Expanding","Expanding","Expanding: 100%","Expanding: 100%",false
+0.020,"Sample 56","B13568/S1468","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 57","B01368/S13568","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 58","B148/S0368","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.020,"Sample 59","B01236/S012578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 60","B348/S023468","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 61","B1457/S01567","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 62","B237/S0134567","Disordered","Expanding","Disordered: 100%","Expanding: 100%",true
+0.020,"Sample 63","B014568/S2467","Expanding","Disordered","Expanding: 100%","Disordered: 100%",true
+0.020,"Sample 64","B0123578/S0145","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.020,"Sample 65","B1268/S34","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 66","B3458/S0347","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 67","B56/S7","Extinct","Structured Dynamic","Extinct: 100%","Structured Dynamic: 100%",true
+0.020,"Sample 68","B3478/S067","Periodic","Structured Dynamic","Periodic: 100%","Structured Dynamic: 100%",true
+0.020,"Sample 69","B023467/S05","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 70","B1457/S2457","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 71","B12357/S456","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 72","B028/S1234578","Frozen","Disordered","Frozen: 100%","Disordered: 100%",true
+0.020,"Sample 73","B3678/S2348","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 74","B047/S02378","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.020,"Sample 75","B2457/S1235678","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.020,"Sample 76","B01346/S013568","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 77","B0347/S2567","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 78","B134/S123578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 79","B0234678/S12567","Expanding","Expanding","Expanding: 100%","Expanding: 100%",false
+0.020,"Sample 80","B2568/S0156","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.020,"Sample 81","B17/S2348","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 82","B012/S02457","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 83","B0123468/S145","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.020,"Sample 84","B012357/S023467","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 85","B01248/S0358","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 86","B568/S016","Frozen","Structured Dynamic","Frozen: 100%","Structured Dynamic: 100%",true
+0.020,"Sample 87","B012456/S0137","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 88","B016/S128","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 89","B012348/S2346","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.020,"Sample 90","B345678/S012368","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 91","B013578/S147","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 92","B127/S14568","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 93","B13568/S015678","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.020,"Sample 94","B0235/S0123","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.020,"Sample 95","B568/S0135","Frozen","Structured Dynamic","Frozen: 100%","Structured Dynamic: 100%",true
+0.020,"Sample 96","B01567/S17","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.020,"Sample 97","B01357/S0148","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.020,"Sample 98","B1258/S03678","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Conway Life","B3/S23","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.050,"HighLife","B36/S23","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.050,"Sample 01","B23678/S348","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 02","B0467/S02356","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 03","B01348/S018","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 04","B234/S0135","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 05","B045678/S678","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.050,"Sample 06","B3467/S0356","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 07","B0378/S12368","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 08","B36/S06","Periodic","Structured Dynamic","Periodic: 100%","Structured Dynamic: 100%",true
+0.050,"Sample 09","B1234567/S56","Disordered","Expanding","Disordered: 100%","Expanding: 100%",true
+0.050,"Sample 10","B13568/S13567","Expanding","Expanding","Expanding: 100%","Expanding: 100%",false
+0.050,"Sample 11","B01467/S0134","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 12","B1578/S035678","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.050,"Sample 13","B1235678/S013578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 14","B0346/S1235","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 15","B24567/S03467","Expanding","Expanding","Expanding: 100%","Expanding: 100%",false
+0.050,"Sample 16","B1245/S2358","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 17","B0123678/S035","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.050,"Sample 18","B12457/S2367","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 19","B03568/S4568","Expanding","Expanding","Expanding: 100%","Expanding: 100%",false
+0.050,"Sample 20","B378/S01678","Periodic","Structured Dynamic","Periodic: 100%","Structured Dynamic: 100%",true
+0.050,"Sample 21","B0268/S346","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 22","B02468/S0245678","Frozen","Expanding","Frozen: 100%","Expanding: 100%",true
+0.050,"Sample 23","B056/S1278","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.050,"Sample 24","B13678/S03458","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 25","B234/S2345","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 26","B24/S3456","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.050,"Sample 27","B01457/S0236","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 28","B134568/S12568","Expanding","Expanding","Expanding: 100%","Expanding: 100%",false
+0.050,"Sample 29","B0568/S134","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.050,"Sample 30","B6/S013678","Frozen","Structured Dynamic","Frozen: 100%","Structured Dynamic: 100%",true
+0.050,"Sample 31","B0167/S012","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 32","B123567/S012357","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 33","B03/S3456","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.050,"Sample 34","B1367/S026","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 35","B1478/S1247","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 36","B123457/S01468","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 37","B25/S012678","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 38","B267/S026","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.050,"Sample 39","B01236/S1347","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 40","B034568/S012368","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 41","B1378/S0357","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 42","B047/S37","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.050,"Sample 43","B01257/S02368","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 44","B04567/S1238","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 45","B0134/S124678","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 46","B03468/S3578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 47","B015678/S0123567","Expanding","Expanding","Expanding: 100%","Expanding: 100%",false
+0.050,"Sample 48","B034678/S0137","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 49","B2/S014678","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.050,"Sample 50","B023678/S123578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 51","B12/S023478","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 52","B12578/S023567","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 53","B0147/S03578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 54","B12467/S024567","Expanding","Expanding","Expanding: 100%","Expanding: 100%",false
+0.050,"Sample 55","B123457/S23467","Expanding","Expanding","Expanding: 100%","Expanding: 100%",false
+0.050,"Sample 56","B13568/S1468","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 57","B01368/S13568","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 58","B148/S0368","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.050,"Sample 59","B01236/S012578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 60","B348/S023468","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 61","B1457/S01567","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 62","B237/S0134567","Disordered","Expanding","Disordered: 100%","Expanding: 100%",true
+0.050,"Sample 63","B014568/S2467","Expanding","Disordered","Expanding: 100%","Disordered: 100%",true
+0.050,"Sample 64","B0123578/S0145","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.050,"Sample 65","B1268/S34","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 66","B3458/S0347","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 67","B56/S7","Extinct","Structured Dynamic","Extinct: 100%","Structured Dynamic: 100%",true
+0.050,"Sample 68","B3478/S067","Periodic","Structured Dynamic","Periodic: 100%","Structured Dynamic: 100%",true
+0.050,"Sample 69","B023467/S05","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 70","B1457/S2457","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 71","B12357/S456","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 72","B028/S1234578","Frozen","Disordered","Frozen: 100%","Disordered: 100%",true
+0.050,"Sample 73","B3678/S2348","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 74","B047/S02378","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.050,"Sample 75","B2457/S1235678","Periodic","Expanding","Periodic: 100%","Expanding: 100%",true
+0.050,"Sample 76","B01346/S013568","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 77","B0347/S2567","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 78","B134/S123578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 79","B0234678/S12567","Expanding","Expanding","Expanding: 100%","Expanding: 100%",false
+0.050,"Sample 80","B2568/S0156","Structured Dynamic","Disordered","Structured Dynamic: 100%","Disordered: 100%",true
+0.050,"Sample 81","B17/S2348","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 82","B012/S02457","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 83","B0123468/S145","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.050,"Sample 84","B012357/S023467","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 85","B01248/S0358","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 86","B568/S016","Frozen","Structured Dynamic","Frozen: 100%","Structured Dynamic: 100%",true
+0.050,"Sample 87","B012456/S0137","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 88","B016/S128","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 89","B012348/S2346","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.050,"Sample 90","B345678/S012368","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 91","B013578/S147","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 92","B127/S14568","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 93","B13568/S015678","Periodic","Expanding","Periodic: 100%","Expanding: 100%",true
+0.050,"Sample 94","B0235/S0123","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.050,"Sample 95","B568/S0135","Frozen","Structured Dynamic","Frozen: 100%","Structured Dynamic: 100%",true
+0.050,"Sample 96","B01567/S17","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.050,"Sample 97","B01357/S0148","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.050,"Sample 98","B1258/S03678","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Conway Life","B3/S23","Structured Dynamic","Disordered","Structured Dynamic: 100%","Disordered: 100%",true
+0.100,"HighLife","B36/S23","Structured Dynamic","Disordered","Structured Dynamic: 100%","Disordered: 100%",true
+0.100,"Sample 01","B23678/S348","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 02","B0467/S02356","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 03","B01348/S018","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 04","B234/S0135","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 05","B045678/S678","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.100,"Sample 06","B3467/S0356","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 07","B0378/S12368","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 08","B36/S06","Periodic","Structured Dynamic","Periodic: 100%","Structured Dynamic: 100%",true
+0.100,"Sample 09","B1234567/S56","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 10","B13568/S13567","Expanding","Expanding","Expanding: 100%","Expanding: 100%",false
+0.100,"Sample 11","B01467/S0134","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 12","B1578/S035678","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.100,"Sample 13","B1235678/S013578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 14","B0346/S1235","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 15","B24567/S03467","Expanding","Expanding","Expanding: 100%","Expanding: 100%",false
+0.100,"Sample 16","B1245/S2358","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 17","B0123678/S035","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.100,"Sample 18","B12457/S2367","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 19","B03568/S4568","Expanding","Expanding","Expanding: 100%","Expanding: 100%",false
+0.100,"Sample 20","B378/S01678","Periodic","Structured Dynamic","Periodic: 100%","Structured Dynamic: 100%",true
+0.100,"Sample 21","B0268/S346","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 22","B02468/S0245678","Frozen","Expanding","Frozen: 100%","Expanding: 100%",true
+0.100,"Sample 23","B056/S1278","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.100,"Sample 24","B13678/S03458","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 25","B234/S2345","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 26","B24/S3456","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.100,"Sample 27","B01457/S0236","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 28","B134568/S12568","Expanding","Disordered","Expanding: 100%","Disordered: 100%",true
+0.100,"Sample 29","B0568/S134","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.100,"Sample 30","B6/S013678","Frozen","Structured Dynamic","Frozen: 100%","Structured Dynamic: 100%",true
+0.100,"Sample 31","B0167/S012","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 32","B123567/S012357","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 33","B03/S3456","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.100,"Sample 34","B1367/S026","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 35","B1478/S1247","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 36","B123457/S01468","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 37","B25/S012678","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 38","B267/S026","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.100,"Sample 39","B01236/S1347","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 40","B034568/S012368","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 41","B1378/S0357","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 42","B047/S37","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.100,"Sample 43","B01257/S02368","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 44","B04567/S1238","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 45","B0134/S124678","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 46","B03468/S3578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 47","B015678/S0123567","Expanding","Expanding","Expanding: 100%","Expanding: 100%",false
+0.100,"Sample 48","B034678/S0137","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 49","B2/S014678","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.100,"Sample 50","B023678/S123578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 51","B12/S023478","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 52","B12578/S023567","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 53","B0147/S03578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 54","B12467/S024567","Expanding","Expanding","Expanding: 100%","Expanding: 100%",false
+0.100,"Sample 55","B123457/S23467","Expanding","Expanding","Expanding: 100%","Expanding: 100%",false
+0.100,"Sample 56","B13568/S1468","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 57","B01368/S13568","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 58","B148/S0368","Structured Dynamic","Disordered","Structured Dynamic: 100%","Disordered: 100%",true
+0.100,"Sample 59","B01236/S012578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 60","B348/S023468","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 61","B1457/S01567","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 62","B237/S0134567","Disordered","Expanding","Disordered: 100%","Expanding: 100%",true
+0.100,"Sample 63","B014568/S2467","Expanding","Disordered","Expanding: 100%","Disordered: 100%",true
+0.100,"Sample 64","B0123578/S0145","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.100,"Sample 65","B1268/S34","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 66","B3458/S0347","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 67","B56/S7","Extinct","Structured Dynamic","Extinct: 100%","Structured Dynamic: 100%",true
+0.100,"Sample 68","B3478/S067","Periodic","Structured Dynamic","Periodic: 100%","Structured Dynamic: 100%",true
+0.100,"Sample 69","B023467/S05","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 70","B1457/S2457","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 71","B12357/S456","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 72","B028/S1234578","Frozen","Disordered","Frozen: 100%","Disordered: 100%",true
+0.100,"Sample 73","B3678/S2348","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 74","B047/S02378","Structured Dynamic","Disordered","Structured Dynamic: 100%","Disordered: 100%",true
+0.100,"Sample 75","B2457/S1235678","Periodic","Expanding","Periodic: 100%","Expanding: 100%",true
+0.100,"Sample 76","B01346/S013568","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 77","B0347/S2567","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 78","B134/S123578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 79","B0234678/S12567","Expanding","Expanding","Expanding: 100%","Expanding: 100%",false
+0.100,"Sample 80","B2568/S0156","Structured Dynamic","Disordered","Structured Dynamic: 100%","Disordered: 100%",true
+0.100,"Sample 81","B17/S2348","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 82","B012/S02457","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 83","B0123468/S145","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.100,"Sample 84","B012357/S023467","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 85","B01248/S0358","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 86","B568/S016","Frozen","Structured Dynamic","Frozen: 100%","Structured Dynamic: 100%",true
+0.100,"Sample 87","B012456/S0137","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 88","B016/S128","Disordered","Structured Dynamic","Disordered: 100%","Structured Dynamic: 100%",true
+0.100,"Sample 89","B012348/S2346","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.100,"Sample 90","B345678/S012368","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 91","B013578/S147","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 92","B127/S14568","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 93","B13568/S015678","Periodic","Expanding","Periodic: 100%","Expanding: 100%",true
+0.100,"Sample 94","B0235/S0123","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.100,"Sample 95","B568/S0135","Frozen","Structured Dynamic","Frozen: 100%","Structured Dynamic: 100%",true
+0.100,"Sample 96","B01567/S17","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.100,"Sample 97","B01357/S0148","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.100,"Sample 98","B1258/S03678","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Conway Life","B3/S23","Structured Dynamic","Disordered","Structured Dynamic: 100%","Disordered: 100%",true
+0.200,"HighLife","B36/S23","Structured Dynamic","Disordered","Structured Dynamic: 100%","Disordered: 100%",true
+0.200,"Sample 01","B23678/S348","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 02","B0467/S02356","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 03","B01348/S018","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 04","B234/S0135","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 05","B045678/S678","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.200,"Sample 06","B3467/S0356","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 07","B0378/S12368","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 08","B36/S06","Periodic","Structured Dynamic","Periodic: 100%","Structured Dynamic: 100%",true
+0.200,"Sample 09","B1234567/S56","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 10","B13568/S13567","Expanding","Disordered","Expanding: 100%","Disordered: 100%",true
+0.200,"Sample 11","B01467/S0134","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 12","B1578/S035678","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.200,"Sample 13","B1235678/S013578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 14","B0346/S1235","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 15","B24567/S03467","Expanding","Disordered","Expanding: 100%","Disordered: 100%",true
+0.200,"Sample 16","B1245/S2358","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 17","B0123678/S035","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.200,"Sample 18","B12457/S2367","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 19","B03568/S4568","Expanding","Disordered","Expanding: 100%","Disordered: 100%",true
+0.200,"Sample 20","B378/S01678","Periodic","Structured Dynamic","Periodic: 100%","Structured Dynamic: 100%",true
+0.200,"Sample 21","B0268/S346","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 22","B02468/S0245678","Frozen","Expanding","Frozen: 100%","Expanding: 100%",true
+0.200,"Sample 23","B056/S1278","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.200,"Sample 24","B13678/S03458","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 25","B234/S2345","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 26","B24/S3456","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.200,"Sample 27","B01457/S0236","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 28","B134568/S12568","Expanding","Disordered","Expanding: 100%","Disordered: 100%",true
+0.200,"Sample 29","B0568/S134","Structured Dynamic","Disordered","Structured Dynamic: 100%","Disordered: 100%",true
+0.200,"Sample 30","B6/S013678","Frozen","Structured Dynamic","Frozen: 100%","Structured Dynamic: 100%",true
+0.200,"Sample 31","B0167/S012","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 32","B123567/S012357","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 33","B03/S3456","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.200,"Sample 34","B1367/S026","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 35","B1478/S1247","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 36","B123457/S01468","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 37","B25/S012678","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 38","B267/S026","Structured Dynamic","Disordered","Structured Dynamic: 100%","Disordered: 100%",true
+0.200,"Sample 39","B01236/S1347","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 40","B034568/S012368","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 41","B1378/S0357","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 42","B047/S37","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.200,"Sample 43","B01257/S02368","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 44","B04567/S1238","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 45","B0134/S124678","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 46","B03468/S3578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 47","B015678/S0123567","Expanding","Disordered","Expanding: 100%","Disordered: 100%",true
+0.200,"Sample 48","B034678/S0137","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 49","B2/S014678","Structured Dynamic","Disordered","Structured Dynamic: 100%","Disordered: 100%",true
+0.200,"Sample 50","B023678/S123578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 51","B12/S023478","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 52","B12578/S023567","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 53","B0147/S03578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 54","B12467/S024567","Expanding","Expanding","Expanding: 100%","Expanding: 100%",false
+0.200,"Sample 55","B123457/S23467","Expanding","Disordered","Expanding: 100%","Disordered: 100%",true
+0.200,"Sample 56","B13568/S1468","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 57","B01368/S13568","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 58","B148/S0368","Structured Dynamic","Disordered","Structured Dynamic: 100%","Disordered: 100%",true
+0.200,"Sample 59","B01236/S012578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 60","B348/S023468","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 61","B1457/S01567","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 62","B237/S0134567","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 63","B014568/S2467","Expanding","Disordered","Expanding: 100%","Disordered: 100%",true
+0.200,"Sample 64","B0123578/S0145","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.200,"Sample 65","B1268/S34","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 66","B3458/S0347","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 67","B56/S7","Extinct","Structured Dynamic","Extinct: 100%","Structured Dynamic: 100%",true
+0.200,"Sample 68","B3478/S067","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.200,"Sample 69","B023467/S05","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 70","B1457/S2457","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 71","B12357/S456","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 72","B028/S1234578","Frozen","Disordered","Frozen: 100%","Disordered: 100%",true
+0.200,"Sample 73","B3678/S2348","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 74","B047/S02378","Structured Dynamic","Disordered","Structured Dynamic: 100%","Disordered: 100%",true
+0.200,"Sample 75","B2457/S1235678","Periodic","Expanding","Periodic: 100%","Expanding: 100%",true
+0.200,"Sample 76","B01346/S013568","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 77","B0347/S2567","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 78","B134/S123578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 79","B0234678/S12567","Expanding","Disordered","Expanding: 100%","Disordered: 100%",true
+0.200,"Sample 80","B2568/S0156","Structured Dynamic","Disordered","Structured Dynamic: 100%","Disordered: 100%",true
+0.200,"Sample 81","B17/S2348","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 82","B012/S02457","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 83","B0123468/S145","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.200,"Sample 84","B012357/S023467","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 85","B01248/S0358","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 86","B568/S016","Frozen","Structured Dynamic","Frozen: 100%","Structured Dynamic: 100%",true
+0.200,"Sample 87","B012456/S0137","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 88","B016/S128","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 89","B012348/S2346","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.200,"Sample 90","B345678/S012368","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 91","B013578/S147","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 92","B127/S14568","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 93","B13568/S015678","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.200,"Sample 94","B0235/S0123","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.200,"Sample 95","B568/S0135","Frozen","Structured Dynamic","Frozen: 100%","Structured Dynamic: 100%",true
+0.200,"Sample 96","B01567/S17","Structured Dynamic","Structured Dynamic","Structured Dynamic: 100%","Structured Dynamic: 100%",false
+0.200,"Sample 97","B01357/S0148","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.200,"Sample 98","B1258/S03678","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Conway Life","B3/S23","Structured Dynamic","Disordered","Structured Dynamic: 100%","Disordered: 100%",true
+0.500,"HighLife","B36/S23","Structured Dynamic","Disordered","Structured Dynamic: 100%","Disordered: 100%",true
+0.500,"Sample 01","B23678/S348","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 02","B0467/S02356","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 03","B01348/S018","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 04","B234/S0135","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 05","B045678/S678","Structured Dynamic","Disordered","Structured Dynamic: 100%","Disordered: 100%",true
+0.500,"Sample 06","B3467/S0356","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 07","B0378/S12368","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 08","B36/S06","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.500,"Sample 09","B1234567/S56","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 10","B13568/S13567","Expanding","Disordered","Expanding: 100%","Disordered: 100%",true
+0.500,"Sample 11","B01467/S0134","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 12","B1578/S035678","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.500,"Sample 13","B1235678/S013578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 14","B0346/S1235","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 15","B24567/S03467","Expanding","Disordered","Expanding: 100%","Disordered: 100%",true
+0.500,"Sample 16","B1245/S2358","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 17","B0123678/S035","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.500,"Sample 18","B12457/S2367","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 19","B03568/S4568","Expanding","Disordered","Expanding: 100%","Disordered: 100%",true
+0.500,"Sample 20","B378/S01678","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.500,"Sample 21","B0268/S346","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 22","B02468/S0245678","Frozen","Disordered","Frozen: 100%","Disordered: 100%",true
+0.500,"Sample 23","B056/S1278","Structured Dynamic","Disordered","Structured Dynamic: 100%","Disordered: 100%",true
+0.500,"Sample 24","B13678/S03458","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 25","B234/S2345","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 26","B24/S3456","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.500,"Sample 27","B01457/S0236","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 28","B134568/S12568","Expanding","Disordered","Expanding: 100%","Disordered: 100%",true
+0.500,"Sample 29","B0568/S134","Structured Dynamic","Disordered","Structured Dynamic: 100%","Disordered: 100%",true
+0.500,"Sample 30","B6/S013678","Frozen","Disordered","Frozen: 100%","Disordered: 100%",true
+0.500,"Sample 31","B0167/S012","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 32","B123567/S012357","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 33","B03/S3456","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.500,"Sample 34","B1367/S026","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 35","B1478/S1247","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 36","B123457/S01468","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 37","B25/S012678","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 38","B267/S026","Structured Dynamic","Disordered","Structured Dynamic: 100%","Disordered: 100%",true
+0.500,"Sample 39","B01236/S1347","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 40","B034568/S012368","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 41","B1378/S0357","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 42","B047/S37","Structured Dynamic","Disordered","Structured Dynamic: 100%","Disordered: 100%",true
+0.500,"Sample 43","B01257/S02368","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 44","B04567/S1238","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 45","B0134/S124678","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 46","B03468/S3578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 47","B015678/S0123567","Expanding","Disordered","Expanding: 100%","Disordered: 100%",true
+0.500,"Sample 48","B034678/S0137","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 49","B2/S014678","Structured Dynamic","Disordered","Structured Dynamic: 100%","Disordered: 100%",true
+0.500,"Sample 50","B023678/S123578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 51","B12/S023478","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 52","B12578/S023567","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 53","B0147/S03578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 54","B12467/S024567","Expanding","Disordered","Expanding: 100%","Disordered: 100%",true
+0.500,"Sample 55","B123457/S23467","Expanding","Disordered","Expanding: 100%","Disordered: 100%",true
+0.500,"Sample 56","B13568/S1468","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 57","B01368/S13568","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 58","B148/S0368","Structured Dynamic","Disordered","Structured Dynamic: 100%","Disordered: 100%",true
+0.500,"Sample 59","B01236/S012578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 60","B348/S023468","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 61","B1457/S01567","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 62","B237/S0134567","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 63","B014568/S2467","Expanding","Disordered","Expanding: 100%","Disordered: 100%",true
+0.500,"Sample 64","B0123578/S0145","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.500,"Sample 65","B1268/S34","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 66","B3458/S0347","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 67","B56/S7","Extinct","Disordered","Extinct: 100%","Disordered: 100%",true
+0.500,"Sample 68","B3478/S067","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.500,"Sample 69","B023467/S05","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 70","B1457/S2457","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 71","B12357/S456","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 72","B028/S1234578","Frozen","Disordered","Frozen: 100%","Disordered: 100%",true
+0.500,"Sample 73","B3678/S2348","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 74","B047/S02378","Structured Dynamic","Disordered","Structured Dynamic: 100%","Disordered: 100%",true
+0.500,"Sample 75","B2457/S1235678","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.500,"Sample 76","B01346/S013568","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 77","B0347/S2567","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 78","B134/S123578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 79","B0234678/S12567","Expanding","Disordered","Expanding: 100%","Disordered: 100%",true
+0.500,"Sample 80","B2568/S0156","Structured Dynamic","Disordered","Structured Dynamic: 100%","Disordered: 100%",true
+0.500,"Sample 81","B17/S2348","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 82","B012/S02457","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 83","B0123468/S145","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.500,"Sample 84","B012357/S023467","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 85","B01248/S0358","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 86","B568/S016","Frozen","Disordered","Frozen: 100%","Disordered: 100%",true
+0.500,"Sample 87","B012456/S0137","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 88","B016/S128","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 89","B012348/S2346","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.500,"Sample 90","B345678/S012368","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 91","B013578/S147","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 92","B127/S14568","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 93","B13568/S015678","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.500,"Sample 94","B0235/S0123","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+0.500,"Sample 95","B568/S0135","Frozen","Disordered","Frozen: 100%","Disordered: 100%",true
+0.500,"Sample 96","B01567/S17","Structured Dynamic","Disordered","Structured Dynamic: 100%","Disordered: 100%",true
+0.500,"Sample 97","B01357/S0148","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+0.500,"Sample 98","B1258/S03678","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+1.000,"Conway Life","B3/S23","Structured Dynamic","Frozen","Structured Dynamic: 100%","Frozen: 100%",true
+1.000,"HighLife","B36/S23","Structured Dynamic","Periodic","Structured Dynamic: 100%","Periodic: 100%",true
+1.000,"Sample 01","B23678/S348","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+1.000,"Sample 02","B0467/S02356","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+1.000,"Sample 03","B01348/S018","Disordered","Expanding","Disordered: 100%","Expanding: 100%",true
+1.000,"Sample 04","B234/S0135","Disordered","Periodic","Disordered: 100%","Periodic: 100%",true
+1.000,"Sample 05","B045678/S678","Structured Dynamic","Periodic","Structured Dynamic: 100%","Periodic: 100%",true
+1.000,"Sample 06","B3467/S0356","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+1.000,"Sample 07","B0378/S12368","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+1.000,"Sample 08","B36/S06","Periodic","Expanding","Periodic: 100%","Expanding: 100%",true
+1.000,"Sample 09","B1234567/S56","Disordered","Frozen","Disordered: 100%","Frozen: 100%",true
+1.000,"Sample 10","B13568/S13567","Expanding","Disordered","Expanding: 100%","Disordered: 100%",true
+1.000,"Sample 11","B01467/S0134","Disordered","Periodic","Disordered: 100%","Periodic: 100%",true
+1.000,"Sample 12","B1578/S035678","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+1.000,"Sample 13","B1235678/S013578","Disordered","Structured Dynamic","Disordered: 100%","Structured Dynamic: 100%",true
+1.000,"Sample 14","B0346/S1235","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+1.000,"Sample 15","B24567/S03467","Expanding","Disordered","Expanding: 100%","Disordered: 100%",true
+1.000,"Sample 16","B1245/S2358","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+1.000,"Sample 17","B0123678/S035","Periodic","Periodic","Periodic: 100%","Periodic: 100%",false
+1.000,"Sample 18","B12457/S2367","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+1.000,"Sample 19","B03568/S4568","Expanding","Disordered","Expanding: 100%","Disordered: 100%",true
+1.000,"Sample 20","B378/S01678","Periodic","Periodic","Periodic: 100%","Periodic: 100%",false
+1.000,"Sample 21","B0268/S346","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+1.000,"Sample 22","B02468/S0245678","Frozen","Disordered","Frozen: 100%","Disordered: 100%",true
+1.000,"Sample 23","B056/S1278","Structured Dynamic","Expanding","Structured Dynamic: 100%","Expanding: 100%",true
+1.000,"Sample 24","B13678/S03458","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+1.000,"Sample 25","B234/S2345","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+1.000,"Sample 26","B24/S3456","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+1.000,"Sample 27","B01457/S0236","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+1.000,"Sample 28","B134568/S12568","Expanding","Disordered","Expanding: 100%","Disordered: 100%",true
+1.000,"Sample 29","B0568/S134","Structured Dynamic","Periodic","Structured Dynamic: 100%","Periodic: 100%",true
+1.000,"Sample 30","B6/S013678","Frozen","Periodic","Frozen: 100%","Periodic: 100%",true
+1.000,"Sample 31","B0167/S012","Disordered","Frozen","Disordered: 100%","Frozen: 100%",true
+1.000,"Sample 32","B123567/S012357","Disordered","Structured Dynamic","Disordered: 100%","Structured Dynamic: 100%",true
+1.000,"Sample 33","B03/S3456","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+1.000,"Sample 34","B1367/S026","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+1.000,"Sample 35","B1478/S1247","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+1.000,"Sample 36","B123457/S01468","Disordered","Structured Dynamic","Disordered: 100%","Structured Dynamic: 100%",true
+1.000,"Sample 37","B25/S012678","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+1.000,"Sample 38","B267/S026","Structured Dynamic","Expanding","Structured Dynamic: 100%","Expanding: 100%",true
+1.000,"Sample 39","B01236/S1347","Disordered","Periodic","Disordered: 100%","Periodic: 100%",true
+1.000,"Sample 40","B034568/S012368","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+1.000,"Sample 41","B1378/S0357","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+1.000,"Sample 42","B047/S37","Structured Dynamic","Expanding","Structured Dynamic: 100%","Expanding: 100%",true
+1.000,"Sample 43","B01257/S02368","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+1.000,"Sample 44","B04567/S1238","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+1.000,"Sample 45","B0134/S124678","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+1.000,"Sample 46","B03468/S3578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+1.000,"Sample 47","B015678/S0123567","Expanding","Disordered","Expanding: 100%","Disordered: 100%",true
+1.000,"Sample 48","B034678/S0137","Disordered","Expanding","Disordered: 100%","Expanding: 100%",true
+1.000,"Sample 49","B2/S014678","Structured Dynamic","Disordered","Structured Dynamic: 100%","Disordered: 100%",true
+1.000,"Sample 50","B023678/S123578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+1.000,"Sample 51","B12/S023478","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+1.000,"Sample 52","B12578/S023567","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+1.000,"Sample 53","B0147/S03578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+1.000,"Sample 54","B12467/S024567","Expanding","Disordered","Expanding: 100%","Disordered: 100%",true
+1.000,"Sample 55","B123457/S23467","Expanding","Periodic","Expanding: 100%","Periodic: 100%",true
+1.000,"Sample 56","B13568/S1468","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+1.000,"Sample 57","B01368/S13568","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+1.000,"Sample 58","B148/S0368","Structured Dynamic","Expanding","Structured Dynamic: 100%","Expanding: 100%",true
+1.000,"Sample 59","B01236/S012578","Disordered","Periodic","Disordered: 100%","Periodic: 100%",true
+1.000,"Sample 60","B348/S023468","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+1.000,"Sample 61","B1457/S01567","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+1.000,"Sample 62","B237/S0134567","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+1.000,"Sample 63","B014568/S2467","Expanding","Disordered","Expanding: 100%","Disordered: 100%",true
+1.000,"Sample 64","B0123578/S0145","Periodic","Periodic","Periodic: 100%","Periodic: 100%",false
+1.000,"Sample 65","B1268/S34","Disordered","Periodic","Disordered: 100%","Periodic: 100%",true
+1.000,"Sample 66","B3458/S0347","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+1.000,"Sample 67","B56/S7","Extinct","Disordered","Extinct: 100%","Disordered: 100%",true
+1.000,"Sample 68","B3478/S067","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+1.000,"Sample 69","B023467/S05","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+1.000,"Sample 70","B1457/S2457","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+1.000,"Sample 71","B12357/S456","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+1.000,"Sample 72","B028/S1234578","Frozen","Periodic","Frozen: 100%","Periodic: 100%",true
+1.000,"Sample 73","B3678/S2348","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+1.000,"Sample 74","B047/S02378","Structured Dynamic","Expanding","Structured Dynamic: 100%","Expanding: 100%",true
+1.000,"Sample 75","B2457/S1235678","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+1.000,"Sample 76","B01346/S013568","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+1.000,"Sample 77","B0347/S2567","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+1.000,"Sample 78","B134/S123578","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+1.000,"Sample 79","B0234678/S12567","Expanding","Structured Dynamic","Expanding: 100%","Structured Dynamic: 100%",true
+1.000,"Sample 80","B2568/S0156","Structured Dynamic","Disordered","Structured Dynamic: 100%","Disordered: 100%",true
+1.000,"Sample 81","B17/S2348","Disordered","Expanding","Disordered: 100%","Expanding: 100%",true
+1.000,"Sample 82","B012/S02457","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+1.000,"Sample 83","B0123468/S145","Periodic","Periodic","Periodic: 100%","Periodic: 100%",false
+1.000,"Sample 84","B012357/S023467","Disordered","Periodic","Disordered: 100%","Periodic: 100%",true
+1.000,"Sample 85","B01248/S0358","Disordered","Expanding","Disordered: 100%","Expanding: 100%",true
+1.000,"Sample 86","B568/S016","Frozen","Disordered","Frozen: 100%","Disordered: 100%",true
+1.000,"Sample 87","B012456/S0137","Disordered","Bounded Dynamic","Disordered: 100%","Bounded Dynamic: 100%",true
+1.000,"Sample 88","B016/S128","Disordered","Expanding","Disordered: 100%","Expanding: 100%",true
+1.000,"Sample 89","B012348/S2346","Periodic","Frozen","Periodic: 100%","Frozen: 100%",true
+1.000,"Sample 90","B345678/S012368","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+1.000,"Sample 91","B013578/S147","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+1.000,"Sample 92","B127/S14568","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false
+1.000,"Sample 93","B13568/S015678","Periodic","Disordered","Periodic: 100%","Disordered: 100%",true
+1.000,"Sample 94","B0235/S0123","Periodic","Frozen","Periodic: 100%","Frozen: 100%",true
+1.000,"Sample 95","B568/S0135","Frozen","Expanding","Frozen: 100%","Expanding: 100%",true
+1.000,"Sample 96","B01567/S17","Structured Dynamic","Periodic","Structured Dynamic: 100%","Periodic: 100%",true
+1.000,"Sample 97","B01357/S0148","Disordered","Expanding","Disordered: 100%","Expanding: 100%",true
+1.000,"Sample 98","B1258/S03678","Disordered","Disordered","Disordered: 100%","Disordered: 100%",false

@@ -29,7 +29,7 @@ Then visit `http://localhost:8080`.
 
 ## Running the Task 3 study
 
-The recorded headless simulation can be rerun with:
+The recorded 100 x 100 headless simulation can be rerun with:
 
 ```sh
 node scripts/run_task3_study.js
@@ -40,6 +40,22 @@ This writes:
 - `results/task3_summary.md`
 - `results/task3_rule_summary.csv`
 - `results/task3_trials.csv`
+
+The recorded 500 x 500 baseline and noise sweep can be rerun with:
+
+```sh
+clang++ -std=c++17 -O3 -pthread scripts/run_large_noise_study.cpp -o /tmp/run_large_noise_study
+/tmp/run_large_noise_study
+```
+
+This writes:
+
+- `results/task3_500_noise_summary.md`
+- `results/task3_500_baseline_rule_summary.csv`
+- `results/task3_500_noise_rule_summary.csv`
+- `results/task3_500_noise_trials.csv`
+- `results/task3_500_vs_100_changes.csv`
+- `results/task3_noise_class_changes.csv`
 
 ## GitHub Pages
 
@@ -62,7 +78,4 @@ Implemented now:
 - Task 2: editable outer-totalistic rule controls, including HighLife.
 - Task 3 support: 100-rule batch study, random initial conditions, quantitative measurements, automatic classification, and CSV export.
 - Task 3 recorded results: 100 rules, 10 trials per rule, 500 steps per trial, 100 x 100 grid, 24% starting density, wrapped edges, seed `202609`.
-
-Not implemented yet:
-
-- Option B noise and perturbations. The current app leaves room to add per-step random flips, noise controls, and robustness comparisons later.
+- Option B recorded results: the same 100 rules on a 500 x 500 grid, 500 steps per trial, with per-step random flips at probabilities from 0 to 1.
