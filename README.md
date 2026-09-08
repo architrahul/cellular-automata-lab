@@ -2,7 +2,7 @@
 
 Interactive static website for the Emergent Complexity initial assignment. It starts with Conway's Game of Life and generalizes the simulator to editable binary outer-totalistic rules.
 
-The written report is in [`report.md`](report.md). It references PDF versions of the figures so Pandoc/LaTeX builds do not need SVG conversion during compilation.
+The written report is in [`report.md`](report.md), with a compiled copy in [`report.pdf`](report.pdf). It references PDF versions of the figures so Pandoc/LaTeX builds do not need SVG conversion during compilation.
 
 ## What it does
 
