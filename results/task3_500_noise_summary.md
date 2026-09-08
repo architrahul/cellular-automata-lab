@@ -48,6 +48,12 @@ Classification changed from the prior 100 x 100, 10-trial run for 7 of 100 rules
 | 0.500 | 40 |
 | 1.000 | 54 |
 
+## Grouped Classification Histogram
+
+![Grouped histogram of rule classifications across noise probabilities](task3_noise_classification_histogram.svg)
+
+The plotted counts are also available in `task3_noise_class_counts.csv`.
+
 ## Pinned Rule Noise Response
 
 | Noise p | Rule label | Dominant class | Avg density | Avg activity |

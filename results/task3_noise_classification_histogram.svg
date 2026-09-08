@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="760" viewBox="0 0 1320 760" role="img" aria-labelledby="title desc">
+<title id="title">Rule Classification Across Noise Probabilities</title>
+<desc id="desc">Grouped histogram of dominant cellular automata rule classes for 100 rules at noise probabilities from 0 to 1.</desc>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="660.0" y="34.0" font-size="22" font-weight="700" text-anchor="middle" fill="#111827">Rule Classification Across Noise Probabilities</text>
+<text x="660.0" y="58.0" font-size="13" font-weight="400" text-anchor="middle" fill="#111827">100 rules, 500 x 500 grid, 500 generations, one controlled initial condition per rule</text>
+<rect x="78" y="74" width="1208" height="558" fill="#ffffff" stroke="#d1d5db"/>
+<line x1="78" y1="632.0" x2="1286" y2="632.0" stroke="#e5e7eb"/>
+<text x="66.0" y="636.0" font-size="12" font-weight="400" text-anchor="end" fill="#111827">0</text>
+<line x1="78" y1="520.4" x2="1286" y2="520.4" stroke="#e5e7eb"/>
+<text x="66.0" y="524.4" font-size="12" font-weight="400" text-anchor="end" fill="#111827">20</text>
+<line x1="78" y1="408.8" x2="1286" y2="408.8" stroke="#e5e7eb"/>
+<text x="66.0" y="412.8" font-size="12" font-weight="400" text-anchor="end" fill="#111827">40</text>
+<line x1="78" y1="297.2" x2="1286" y2="297.2" stroke="#e5e7eb"/>
+<text x="66.0" y="301.2" font-size="12" font-weight="400" text-anchor="end" fill="#111827">60</text>
+<line x1="78" y1="185.6" x2="1286" y2="185.6" stroke="#e5e7eb"/>
+<text x="66.0" y="189.6" font-size="12" font-weight="400" text-anchor="end" fill="#111827">80</text>
+<line x1="78" y1="74.0" x2="1286" y2="74.0" stroke="#e5e7eb"/>
+<text x="66.0" y="78.0" font-size="12" font-weight="400" text-anchor="end" fill="#111827">100</text>
+<rect x="86.0" y="626.4" width="13.3" height="5.6" fill="#4b5563"><title>p=0.000, Extinct: 1 rules</title></rect>
+<rect x="101.3" y="604.1" width="13.3" height="27.9" fill="#2563eb"><title>p=0.000, Frozen: 5 rules</title></rect>
+<rect x="116.5" y="559.5" width="13.3" height="72.5" fill="#7c3aed"><title>p=0.000, Periodic: 13 rules</title></rect>
+<rect x="131.8" y="581.8" width="13.3" height="50.2" fill="#dc2626"><title>p=0.000, Expanding: 9 rules</title></rect>
+<rect x="147.0" y="297.2" width="13.3" height="334.8" fill="#d97706"><title>p=0.000, Disordered: 60 rules</title></rect>
+<rect x="162.3" y="565.0" width="13.3" height="67.0" fill="#059669"><title>p=0.000, Structured Dynamic: 12 rules</title></rect>
+<rect x="177.5" y="632.0" width="13.3" height="0.0" fill="#0891b2"><title>p=0.000, Bounded Dynamic: 0 rules</title></rect>
+<text x="138.4" y="656.0" font-size="12" font-weight="400" text-anchor="middle" fill="#111827">0</text>
+<rect x="206.8" y="632.0" width="13.3" height="0.0" fill="#4b5563"><title>p=0.001, Extinct: 0 rules</title></rect>
+<rect x="222.1" y="632.0" width="13.3" height="0.0" fill="#2563eb"><title>p=0.001, Frozen: 0 rules</title></rect>
+<rect x="237.3" y="632.0" width="13.3" height="0.0" fill="#7c3aed"><title>p=0.001, Periodic: 0 rules</title></rect>
+<rect x="252.6" y="576.2" width="13.3" height="55.8" fill="#dc2626"><title>p=0.001, Expanding: 10 rules</title></rect>
+<rect x="267.8" y="269.3" width="13.3" height="362.7" fill="#d97706"><title>p=0.001, Disordered: 65 rules</title></rect>
+<rect x="283.1" y="559.5" width="13.3" height="72.5" fill="#059669"><title>p=0.001, Structured Dynamic: 13 rules</title></rect>
+<rect x="298.3" y="565.0" width="13.3" height="67.0" fill="#0891b2"><title>p=0.001, Bounded Dynamic: 12 rules</title></rect>
+<text x="259.2" y="656.0" font-size="12" font-weight="400" text-anchor="middle" fill="#111827">0.001</text>
+<rect x="327.6" y="632.0" width="13.3" height="0.0" fill="#4b5563"><title>p=0.005, Extinct: 0 rules</title></rect>
+<rect x="342.9" y="632.0" width="13.3" height="0.0" fill="#2563eb"><title>p=0.005, Frozen: 0 rules</title></rect>
+<rect x="358.1" y="632.0" width="13.3" height="0.0" fill="#7c3aed"><title>p=0.005, Periodic: 0 rules</title></rect>
+<rect x="373.4" y="576.2" width="13.3" height="55.8" fill="#dc2626"><title>p=0.005, Expanding: 10 rules</title></rect>
+<rect x="388.6" y="258.1" width="13.3" height="373.9" fill="#d97706"><title>p=0.005, Disordered: 67 rules</title></rect>
+<rect x="403.9" y="548.3" width="13.3" height="83.7" fill="#059669"><title>p=0.005, Structured Dynamic: 15 rules</title></rect>
+<rect x="419.1" y="587.4" width="13.3" height="44.6" fill="#0891b2"><title>p=0.005, Bounded Dynamic: 8 rules</title></rect>
+<text x="380.0" y="656.0" font-size="12" font-weight="400" text-anchor="middle" fill="#111827">0.005</text>
+<rect x="448.4" y="632.0" width="13.3" height="0.0" fill="#4b5563"><title>p=0.010, Extinct: 0 rules</title></rect>
+<rect x="463.7" y="632.0" width="13.3" height="0.0" fill="#2563eb"><title>p=0.010, Frozen: 0 rules</title></rect>
+<rect x="478.9" y="632.0" width="13.3" height="0.0" fill="#7c3aed"><title>p=0.010, Periodic: 0 rules</title></rect>
+<rect x="494.2" y="576.2" width="13.3" height="55.8" fill="#dc2626"><title>p=0.010, Expanding: 10 rules</title></rect>
+<rect x="509.4" y="235.8" width="13.3" height="396.2" fill="#d97706"><title>p=0.010, Disordered: 71 rules</title></rect>
+<rect x="524.7" y="526.0" width="13.3" height="106.0" fill="#059669"><title>p=0.010, Structured Dynamic: 19 rules</title></rect>
+<rect x="539.9" y="632.0" width="13.3" height="0.0" fill="#0891b2"><title>p=0.010, Bounded Dynamic: 0 rules</title></rect>
+<text x="500.8" y="656.0" font-size="12" font-weight="400" text-anchor="middle" fill="#111827">0.01</text>
+<rect x="569.2" y="632.0" width="13.3" height="0.0" fill="#4b5563"><title>p=0.020, Extinct: 0 rules</title></rect>
+<rect x="584.5" y="632.0" width="13.3" height="0.0" fill="#2563eb"><title>p=0.020, Frozen: 0 rules</title></rect>
+<rect x="599.7" y="632.0" width="13.3" height="0.0" fill="#7c3aed"><title>p=0.020, Periodic: 0 rules</title></rect>
+<rect x="615.0" y="570.6" width="13.3" height="61.4" fill="#dc2626"><title>p=0.020, Expanding: 11 rules</title></rect>
+<rect x="630.2" y="241.4" width="13.3" height="390.6" fill="#d97706"><title>p=0.020, Disordered: 70 rules</title></rect>
+<rect x="645.5" y="526.0" width="13.3" height="106.0" fill="#059669"><title>p=0.020, Structured Dynamic: 19 rules</title></rect>
+<rect x="660.7" y="632.0" width="13.3" height="0.0" fill="#0891b2"><title>p=0.020, Bounded Dynamic: 0 rules</title></rect>
+<text x="621.6" y="656.0" font-size="12" font-weight="400" text-anchor="middle" fill="#111827">0.02</text>
+<rect x="690.0" y="632.0" width="13.3" height="0.0" fill="#4b5563"><title>p=0.050, Extinct: 0 rules</title></rect>
+<rect x="705.3" y="632.0" width="13.3" height="0.0" fill="#2563eb"><title>p=0.050, Frozen: 0 rules</title></rect>
+<rect x="720.5" y="632.0" width="13.3" height="0.0" fill="#7c3aed"><title>p=0.050, Periodic: 0 rules</title></rect>
+<rect x="735.8" y="559.5" width="13.3" height="72.5" fill="#dc2626"><title>p=0.050, Expanding: 13 rules</title></rect>
+<rect x="751.0" y="247.0" width="13.3" height="385.0" fill="#d97706"><title>p=0.050, Disordered: 69 rules</title></rect>
+<rect x="766.3" y="531.6" width="13.3" height="100.4" fill="#059669"><title>p=0.050, Structured Dynamic: 18 rules</title></rect>
+<rect x="781.5" y="632.0" width="13.3" height="0.0" fill="#0891b2"><title>p=0.050, Bounded Dynamic: 0 rules</title></rect>
+<text x="742.4" y="656.0" font-size="12" font-weight="400" text-anchor="middle" fill="#111827">0.05</text>
+<rect x="810.8" y="632.0" width="13.3" height="0.0" fill="#4b5563"><title>p=0.100, Extinct: 0 rules</title></rect>
+<rect x="826.1" y="632.0" width="13.3" height="0.0" fill="#2563eb"><title>p=0.100, Frozen: 0 rules</title></rect>
+<rect x="841.3" y="632.0" width="13.3" height="0.0" fill="#7c3aed"><title>p=0.100, Periodic: 0 rules</title></rect>
+<rect x="856.6" y="570.6" width="13.3" height="61.4" fill="#dc2626"><title>p=0.100, Expanding: 11 rules</title></rect>
+<rect x="871.8" y="219.1" width="13.3" height="412.9" fill="#d97706"><title>p=0.100, Disordered: 74 rules</title></rect>
+<rect x="887.1" y="548.3" width="13.3" height="83.7" fill="#059669"><title>p=0.100, Structured Dynamic: 15 rules</title></rect>
+<rect x="902.3" y="632.0" width="13.3" height="0.0" fill="#0891b2"><title>p=0.100, Bounded Dynamic: 0 rules</title></rect>
+<text x="863.2" y="656.0" font-size="12" font-weight="400" text-anchor="middle" fill="#111827">0.1</text>
+<rect x="931.6" y="632.0" width="13.3" height="0.0" fill="#4b5563"><title>p=0.200, Extinct: 0 rules</title></rect>
+<rect x="946.9" y="632.0" width="13.3" height="0.0" fill="#2563eb"><title>p=0.200, Frozen: 0 rules</title></rect>
+<rect x="962.1" y="632.0" width="13.3" height="0.0" fill="#7c3aed"><title>p=0.200, Periodic: 0 rules</title></rect>
+<rect x="977.4" y="615.3" width="13.3" height="16.7" fill="#dc2626"><title>p=0.200, Expanding: 3 rules</title></rect>
+<rect x="992.6" y="146.5" width="13.3" height="485.5" fill="#d97706"><title>p=0.200, Disordered: 87 rules</title></rect>
+<rect x="1007.9" y="576.2" width="13.3" height="55.8" fill="#059669"><title>p=0.200, Structured Dynamic: 10 rules</title></rect>
+<rect x="1023.1" y="632.0" width="13.3" height="0.0" fill="#0891b2"><title>p=0.200, Bounded Dynamic: 0 rules</title></rect>
+<text x="984.0" y="656.0" font-size="12" font-weight="400" text-anchor="middle" fill="#111827">0.2</text>
+<rect x="1052.4" y="632.0" width="13.3" height="0.0" fill="#4b5563"><title>p=0.500, Extinct: 0 rules</title></rect>
+<rect x="1067.7" y="632.0" width="13.3" height="0.0" fill="#2563eb"><title>p=0.500, Frozen: 0 rules</title></rect>
+<rect x="1082.9" y="632.0" width="13.3" height="0.0" fill="#7c3aed"><title>p=0.500, Periodic: 0 rules</title></rect>
+<rect x="1098.2" y="632.0" width="13.3" height="0.0" fill="#dc2626"><title>p=0.500, Expanding: 0 rules</title></rect>
+<rect x="1113.4" y="74.0" width="13.3" height="558.0" fill="#d97706"><title>p=0.500, Disordered: 100 rules</title></rect>
+<rect x="1128.7" y="632.0" width="13.3" height="0.0" fill="#059669"><title>p=0.500, Structured Dynamic: 0 rules</title></rect>
+<rect x="1143.9" y="632.0" width="13.3" height="0.0" fill="#0891b2"><title>p=0.500, Bounded Dynamic: 0 rules</title></rect>
+<text x="1104.8" y="656.0" font-size="12" font-weight="400" text-anchor="middle" fill="#111827">0.5</text>
+<rect x="1173.2" y="632.0" width="13.3" height="0.0" fill="#4b5563"><title>p=1.000, Extinct: 0 rules</title></rect>
+<rect x="1188.5" y="604.1" width="13.3" height="27.9" fill="#2563eb"><title>p=1.000, Frozen: 5 rules</title></rect>
+<rect x="1203.7" y="537.1" width="13.3" height="94.9" fill="#7c3aed"><title>p=1.000, Periodic: 17 rules</title></rect>
+<rect x="1219.0" y="559.5" width="13.3" height="72.5" fill="#dc2626"><title>p=1.000, Expanding: 13 rules</title></rect>
+<rect x="1234.2" y="297.2" width="13.3" height="334.8" fill="#d97706"><title>p=1.000, Disordered: 60 rules</title></rect>
+<rect x="1249.5" y="609.7" width="13.3" height="22.3" fill="#059669"><title>p=1.000, Structured Dynamic: 4 rules</title></rect>
+<rect x="1264.7" y="626.4" width="13.3" height="5.6" fill="#0891b2"><title>p=1.000, Bounded Dynamic: 1 rules</title></rect>
+<text x="1225.6" y="656.0" font-size="12" font-weight="400" text-anchor="middle" fill="#111827">1.0</text>
+<line x1="78" y1="632" x2="1286" y2="632" stroke="#111827"/>
+<line x1="78" y1="74" x2="78" y2="632" stroke="#111827"/>
+<text x="682.0" y="726.0" font-size="14" font-weight="700" text-anchor="middle" fill="#111827">Noise probability p</text>
+<text x="22.0" y="353.0" font-size="14" font-weight="700" text-anchor="middle" fill="#111827" transform="rotate(-90 22 353.0)">Number of rules</text>
+<rect x="78" y="657" width="14" height="14" fill="#4b5563"/>
+<text x="100.0" y="669.0" font-size="13" font-weight="400" text-anchor="start" fill="#111827">Extinct</text>
+<rect x="256" y="657" width="14" height="14" fill="#2563eb"/>
+<text x="278.0" y="669.0" font-size="13" font-weight="400" text-anchor="start" fill="#111827">Frozen</text>
+<rect x="434" y="657" width="14" height="14" fill="#7c3aed"/>
+<text x="456.0" y="669.0" font-size="13" font-weight="400" text-anchor="start" fill="#111827">Periodic</text>
+<rect x="612" y="657" width="14" height="14" fill="#dc2626"/>
+<text x="634.0" y="669.0" font-size="13" font-weight="400" text-anchor="start" fill="#111827">Expanding</text>
+<rect x="78" y="685" width="14" height="14" fill="#d97706"/>
+<text x="100.0" y="697.0" font-size="13" font-weight="400" text-anchor="start" fill="#111827">Disordered</text>
+<rect x="256" y="685" width="14" height="14" fill="#059669"/>
+<text x="278.0" y="697.0" font-size="13" font-weight="400" text-anchor="start" fill="#111827">Structured Dynamic</text>
+<rect x="434" y="685" width="14" height="14" fill="#0891b2"/>
+<text x="456.0" y="697.0" font-size="13" font-weight="400" text-anchor="start" fill="#111827">Bounded Dynamic</text>
+</svg>
