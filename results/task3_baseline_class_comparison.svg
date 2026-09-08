@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="620" viewBox="0 0 1120 620" role="img" aria-labelledby="title desc">
+<title id="title">Baseline Class Counts by Grid Size</title>
+<desc id="desc">Grouped bar chart comparing 100 by 100 and 500 by 500 dominant rule classifications.</desc>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="560.0" y="34.0" font-size="22" font-weight="700" text-anchor="middle" fill="#111827">Baseline Rule Classification by Grid Size</text>
+<text x="560.0" y="58.0" font-size="13" font-weight="400" text-anchor="middle" fill="#111827">100 rules, 500 generations, 24% initial live-cell density</text>
+<rect x="74" y="78" width="1014" height="412" fill="#ffffff" stroke="#d1d5db"/>
+<line x1="74" y1="490.0" x2="1088" y2="490.0" stroke="#e5e7eb"/>
+<text x="62.0" y="494.0" font-size="12" font-weight="400" text-anchor="end" fill="#111827">0</text>
+<line x1="74" y1="421.3" x2="1088" y2="421.3" stroke="#e5e7eb"/>
+<text x="62.0" y="425.3" font-size="12" font-weight="400" text-anchor="end" fill="#111827">10</text>
+<line x1="74" y1="352.7" x2="1088" y2="352.7" stroke="#e5e7eb"/>
+<text x="62.0" y="356.7" font-size="12" font-weight="400" text-anchor="end" fill="#111827">20</text>
+<line x1="74" y1="284.0" x2="1088" y2="284.0" stroke="#e5e7eb"/>
+<text x="62.0" y="288.0" font-size="12" font-weight="400" text-anchor="end" fill="#111827">30</text>
+<line x1="74" y1="215.3" x2="1088" y2="215.3" stroke="#e5e7eb"/>
+<text x="62.0" y="219.3" font-size="12" font-weight="400" text-anchor="end" fill="#111827">40</text>
+<line x1="74" y1="146.7" x2="1088" y2="146.7" stroke="#e5e7eb"/>
+<text x="62.0" y="150.7" font-size="12" font-weight="400" text-anchor="end" fill="#111827">50</text>
+<line x1="74" y1="78.0" x2="1088" y2="78.0" stroke="#e5e7eb"/>
+<text x="62.0" y="82.0" font-size="12" font-weight="400" text-anchor="end" fill="#111827">60</text>
+<rect x="108.4" y="483.1" width="34" height="6.9" fill="#64748b"><title>100 x 100, Extinct: 1 rules</title></rect>
+<text x="125.4" y="477.1" font-size="11" font-weight="400" text-anchor="middle" fill="#111827">1</text>
+<rect x="150.4" y="483.1" width="34" height="6.9" fill="#4b5563"><title>500 x 500, Extinct: 1 rules</title></rect>
+<text x="167.4" y="477.1" font-size="11" font-weight="400" text-anchor="middle" fill="#111827">1</text>
+<text x="146.4" y="512.0" font-size="11" font-weight="400" text-anchor="middle" fill="#111827" transform="rotate(-28 146.42857142857144 512)">Extinct</text>
+<rect x="253.3" y="435.1" width="34" height="54.9" fill="#64748b"><title>100 x 100, Frozen: 8 rules</title></rect>
+<text x="270.3" y="429.1" font-size="11" font-weight="400" text-anchor="middle" fill="#111827">8</text>
+<rect x="295.3" y="455.7" width="34" height="34.3" fill="#2563eb"><title>500 x 500, Frozen: 5 rules</title></rect>
+<text x="312.3" y="449.7" font-size="11" font-weight="400" text-anchor="middle" fill="#111827">5</text>
+<text x="291.3" y="512.0" font-size="11" font-weight="400" text-anchor="middle" fill="#111827" transform="rotate(-28 291.2857142857143 512)">Frozen</text>
+<rect x="398.1" y="393.9" width="34" height="96.1" fill="#64748b"><title>100 x 100, Periodic: 14 rules</title></rect>
+<text x="415.1" y="387.9" font-size="11" font-weight="400" text-anchor="middle" fill="#111827">14</text>
+<rect x="440.1" y="400.7" width="34" height="89.3" fill="#7c3aed"><title>500 x 500, Periodic: 13 rules</title></rect>
+<text x="457.1" y="394.7" font-size="11" font-weight="400" text-anchor="middle" fill="#111827">13</text>
+<text x="436.1" y="512.0" font-size="11" font-weight="400" text-anchor="middle" fill="#111827" transform="rotate(-28 436.14285714285717 512)">Periodic</text>
+<rect x="543.0" y="428.2" width="34" height="61.8" fill="#64748b"><title>100 x 100, Expanding: 9 rules</title></rect>
+<text x="560.0" y="422.2" font-size="11" font-weight="400" text-anchor="middle" fill="#111827">9</text>
+<rect x="585.0" y="428.2" width="34" height="61.8" fill="#dc2626"><title>500 x 500, Expanding: 9 rules</title></rect>
+<text x="602.0" y="422.2" font-size="11" font-weight="400" text-anchor="middle" fill="#111827">9</text>
+<text x="581.0" y="512.0" font-size="11" font-weight="400" text-anchor="middle" fill="#111827" transform="rotate(-28 581.0 512)">Expanding</text>
+<rect x="687.9" y="98.6" width="34" height="391.4" fill="#64748b"><title>100 x 100, Disordered: 57 rules</title></rect>
+<text x="704.9" y="92.6" font-size="11" font-weight="400" text-anchor="middle" fill="#111827">57</text>
+<rect x="729.9" y="78.0" width="34" height="412.0" fill="#d97706"><title>500 x 500, Disordered: 60 rules</title></rect>
+<text x="746.9" y="72.0" font-size="11" font-weight="400" text-anchor="middle" fill="#111827">60</text>
+<text x="725.9" y="512.0" font-size="11" font-weight="400" text-anchor="middle" fill="#111827" transform="rotate(-28 725.8571428571429 512)">Disordered</text>
+<rect x="832.7" y="414.5" width="34" height="75.5" fill="#64748b"><title>100 x 100, Structured Dynamic: 11 rules</title></rect>
+<text x="849.7" y="408.5" font-size="11" font-weight="400" text-anchor="middle" fill="#111827">11</text>
+<rect x="874.7" y="407.6" width="34" height="82.4" fill="#059669"><title>500 x 500, Structured Dynamic: 12 rules</title></rect>
+<text x="891.7" y="401.6" font-size="11" font-weight="400" text-anchor="middle" fill="#111827">12</text>
+<text x="870.7" y="512.0" font-size="11" font-weight="400" text-anchor="middle" fill="#111827" transform="rotate(-28 870.7142857142858 512)">Structured</text>
+<rect x="977.6" y="490.0" width="34" height="0.0" fill="#64748b"><title>100 x 100, Bounded Dynamic: 0 rules</title></rect>
+<rect x="1019.6" y="490.0" width="34" height="0.0" fill="#0891b2"><title>500 x 500, Bounded Dynamic: 0 rules</title></rect>
+<text x="1015.6" y="512.0" font-size="11" font-weight="400" text-anchor="middle" fill="#111827" transform="rotate(-28 1015.5714285714286 512)">Bounded</text>
+<text x="581.0" y="592.0" font-size="14" font-weight="700" text-anchor="middle" fill="#111827">Dominant rule class</text>
+<text x="22.0" y="284.0" font-size="14" font-weight="700" text-anchor="middle" fill="#111827" transform="rotate(-90 22 284.0)">Number of rules</text>
+<rect x="414" y="512" width="14" height="14" fill="#64748b"/>
+<text x="436.0" y="545.0" font-size="13" font-weight="400" text-anchor="start" fill="#111827">100 x 100</text>
+<rect x="538" y="512" width="14" height="14" fill="#059669"/>
+<text x="560.0" y="545.0" font-size="13" font-weight="400" text-anchor="start" fill="#111827">500 x 500 bars use class colors</text>
+</svg>

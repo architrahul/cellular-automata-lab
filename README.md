@@ -2,6 +2,8 @@
 
 Interactive static website for the Emergent Complexity initial assignment. It starts with Conway's Game of Life and generalizes the simulator to editable binary outer-totalistic rules.
 
+The written report is in [`report.md`](report.md).
+
 ## What it does
 
 - Draw live/dead cells directly on the grid.

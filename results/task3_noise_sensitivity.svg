@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="540" viewBox="0 0 980 540" role="img" aria-labelledby="title desc">
+<title id="title">Noise Sensitivity of Rule Classifications</title>
+<desc id="desc">Line chart of how many rules changed dominant classification relative to p equals zero.</desc>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="490.0" y="34.0" font-size="22" font-weight="700" text-anchor="middle" fill="#111827">Noise Sensitivity of Rule Classifications</text>
+<text x="490.0" y="58.0" font-size="13" font-weight="400" text-anchor="middle" fill="#111827">Changed dominant class relative to the 500 x 500 p=0 baseline</text>
+<rect x="76" y="76" width="868" height="368" fill="#ffffff" stroke="#d1d5db"/>
+<line x1="76" y1="444.0" x2="944" y2="444.0" stroke="#e5e7eb"/>
+<text x="64.0" y="448.0" font-size="12" font-weight="400" text-anchor="end" fill="#111827">0</text>
+<line x1="76" y1="382.7" x2="944" y2="382.7" stroke="#e5e7eb"/>
+<text x="64.0" y="386.7" font-size="12" font-weight="400" text-anchor="end" fill="#111827">10</text>
+<line x1="76" y1="321.3" x2="944" y2="321.3" stroke="#e5e7eb"/>
+<text x="64.0" y="325.3" font-size="12" font-weight="400" text-anchor="end" fill="#111827">20</text>
+<line x1="76" y1="260.0" x2="944" y2="260.0" stroke="#e5e7eb"/>
+<text x="64.0" y="264.0" font-size="12" font-weight="400" text-anchor="end" fill="#111827">30</text>
+<line x1="76" y1="198.7" x2="944" y2="198.7" stroke="#e5e7eb"/>
+<text x="64.0" y="202.7" font-size="12" font-weight="400" text-anchor="end" fill="#111827">40</text>
+<line x1="76" y1="137.3" x2="944" y2="137.3" stroke="#e5e7eb"/>
+<text x="64.0" y="141.3" font-size="12" font-weight="400" text-anchor="end" fill="#111827">50</text>
+<line x1="76" y1="76.0" x2="944" y2="76.0" stroke="#e5e7eb"/>
+<text x="64.0" y="80.0" font-size="12" font-weight="400" text-anchor="end" fill="#111827">60</text>
+<path d="M76.0,327.5 L184.5,327.5 L293.0,327.5 L401.5,309.1 L510.0,302.9 L618.5,272.3 L727.0,229.3 L835.5,198.7 L944.0,112.8" fill="none" stroke="#dc2626" stroke-width="3"/>
+<circle cx="76.0" cy="327.5" r="5" fill="#dc2626"><title>p=0.001: 19 changed rules</title></circle>
+<text x="76.0" y="316.5" font-size="11" font-weight="400" text-anchor="middle" fill="#111827">19</text>
+<text x="76.0" y="468.0" font-size="12" font-weight="400" text-anchor="middle" fill="#111827">0.001</text>
+<circle cx="184.5" cy="327.5" r="5" fill="#dc2626"><title>p=0.005: 19 changed rules</title></circle>
+<text x="184.5" y="316.5" font-size="11" font-weight="400" text-anchor="middle" fill="#111827">19</text>
+<text x="184.5" y="468.0" font-size="12" font-weight="400" text-anchor="middle" fill="#111827">0.005</text>
+<circle cx="293.0" cy="327.5" r="5" fill="#dc2626"><title>p=0.010: 19 changed rules</title></circle>
+<text x="293.0" y="316.5" font-size="11" font-weight="400" text-anchor="middle" fill="#111827">19</text>
+<text x="293.0" y="468.0" font-size="12" font-weight="400" text-anchor="middle" fill="#111827">0.01</text>
+<circle cx="401.5" cy="309.1" r="5" fill="#dc2626"><title>p=0.020: 22 changed rules</title></circle>
+<text x="401.5" y="298.1" font-size="11" font-weight="400" text-anchor="middle" fill="#111827">22</text>
+<text x="401.5" y="468.0" font-size="12" font-weight="400" text-anchor="middle" fill="#111827">0.02</text>
+<circle cx="510.0" cy="302.9" r="5" fill="#dc2626"><title>p=0.050: 23 changed rules</title></circle>
+<text x="510.0" y="291.9" font-size="11" font-weight="400" text-anchor="middle" fill="#111827">23</text>
+<text x="510.0" y="468.0" font-size="12" font-weight="400" text-anchor="middle" fill="#111827">0.05</text>
+<circle cx="618.5" cy="272.3" r="5" fill="#dc2626"><title>p=0.100: 28 changed rules</title></circle>
+<text x="618.5" y="261.3" font-size="11" font-weight="400" text-anchor="middle" fill="#111827">28</text>
+<text x="618.5" y="468.0" font-size="12" font-weight="400" text-anchor="middle" fill="#111827">0.1</text>
+<circle cx="727.0" cy="229.3" r="5" fill="#dc2626"><title>p=0.200: 35 changed rules</title></circle>
+<text x="727.0" y="218.3" font-size="11" font-weight="400" text-anchor="middle" fill="#111827">35</text>
+<text x="727.0" y="468.0" font-size="12" font-weight="400" text-anchor="middle" fill="#111827">0.2</text>
+<circle cx="835.5" cy="198.7" r="5" fill="#dc2626"><title>p=0.500: 40 changed rules</title></circle>
+<text x="835.5" y="187.7" font-size="11" font-weight="400" text-anchor="middle" fill="#111827">40</text>
+<text x="835.5" y="468.0" font-size="12" font-weight="400" text-anchor="middle" fill="#111827">0.5</text>
+<circle cx="944.0" cy="112.8" r="5" fill="#dc2626"><title>p=1.000: 54 changed rules</title></circle>
+<text x="944.0" y="101.8" font-size="11" font-weight="400" text-anchor="middle" fill="#111827">54</text>
+<text x="944.0" y="468.0" font-size="12" font-weight="400" text-anchor="middle" fill="#111827">1.0</text>
+<text x="510.0" y="512.0" font-size="14" font-weight="700" text-anchor="middle" fill="#111827">Noise probability p</text>
+<text x="22.0" y="260.0" font-size="14" font-weight="700" text-anchor="middle" fill="#111827" transform="rotate(-90 22 260.0)">Rules changed</text>
+</svg>
