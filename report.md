@@ -200,6 +200,11 @@ The 500 x 500 baseline suggests that most classifications are not purely small-g
 
 Noise affects exact classifications most strongly for Frozen and Periodic rules, because random flips disrupt exact rest states and exact cycle repeats. Conway Life and HighLife are more robust: they remain Structured Dynamic under low and moderate perturbation, then become Disordered once noise is large enough to dominate local structure.
 
+## Interesting Questions
+
+1. **Attractor counting:** How does the number of fixed and period-`k` configurations of a Life-like rule scale with grid size, and can they be counted efficiently?
+2. **Emergence thresholds:** Given that such structures are possible, under what density and spatial-isolation conditions do they actually emerge from random initial conditions? Is there a predictable finite-size or critical threshold?
+
 ## Limitations
 
 - The 100 x 100 baseline used 10 trials per rule, but the 500 x 500 noise sweep used one trial per rule/probability.
