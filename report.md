@@ -1,3 +1,8 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 # Cellular Automata Rule-Space Report
 
 ## Overview
@@ -108,7 +113,7 @@ Reproductive behavior was not assigned automatically. Detecting self-reproductio
 
 ### Baseline Classification
 
-![Baseline class comparison](results/task3_baseline_class_comparison.svg)
+![Baseline class comparison](results/task3_baseline_class_comparison.pdf)
 
 | Class | 100 x 100 rules | 500 x 500 rules |
 | --- | ---: | ---: |
@@ -136,7 +141,7 @@ Conway's Life and HighLife both remained **Structured Dynamic** at 100 x 100 and
 
 ### Noise Sensitivity
 
-![Rules changed under noise](results/task3_noise_sensitivity.svg)
+![Rules changed under noise](results/task3_noise_sensitivity.pdf)
 
 | Noise probability | Rules whose dominant class changed from `p=0` |
 | --- | ---: |
@@ -158,7 +163,7 @@ The `p=1.0` case is special. It is not random noise in the usual sense; every ce
 
 ### Class Distribution Across Noise Values
 
-![Grouped histogram of rule classifications across noise probabilities](results/task3_noise_classification_histogram.svg)
+![Grouped histogram of rule classifications across noise probabilities](results/task3_noise_classification_histogram.pdf)
 
 | Noise | Extinct | Frozen | Periodic | Expanding | Disordered | Structured Dynamic | Bounded Dynamic |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
@@ -239,6 +244,9 @@ Regenerate report figures:
 ```sh
 python3 scripts/plot_noise_classification_histogram.py
 python3 scripts/plot_report_figures.py
+magick results/task3_baseline_class_comparison.svg results/task3_baseline_class_comparison.pdf
+magick results/task3_noise_sensitivity.svg results/task3_noise_sensitivity.pdf
+magick results/task3_noise_classification_histogram.svg results/task3_noise_classification_histogram.pdf
 ```
 
 The raw results are stored in `results/`.
